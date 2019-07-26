@@ -1,0 +1,16 @@
+ <footer class="footer wow">
+   <section>
+     <h3>Run your own:</h3>
+     <p>To create your own study circle with friends, the existing syllabi are available for you.</p>
+     <p>Email us at <a href="mailto:{{site.email}}?subject=Study Circle">{{site.email}}</a> and and we can help you
+       to
+       get started.</p>
+   </section>
+   {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
+   <a href="{{ site.posts[random].url }}" class="next"
+     style="background-image: url(/assets/images/{{ site.posts[random].cover }})">
+     <h3>Next:</h3>
+     <span class="main">{{ site.posts[random].title }}</span>
+     <span class="slogan">{{ site.posts[random].description }}</span>
+   </a>
+ </footer>
