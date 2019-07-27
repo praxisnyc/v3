@@ -1,0 +1,151 @@
+@mixin font-face($title, $path: "./fonts/", $file: $title, $weight: normal, $style: normal, $stretch: normal, $transform: normal) {
+  @font-face {
+    font-family: #{$title};
+    src: url("#{$path}#{$file}.eot");
+    src: url("#{$path}#{$file}.eot?#iefix") format("embedded-opentype"),
+    url("#{$path}#{$file}.woff") format("woff"),
+    url("#{$path}#{$file}.ttf") format("truetype"),
+    url("#{$path}#{$file}.svg##{$title}") format("svg");
+    font-weight: $weight;
+    font-style: $style;
+    font-stretch: $stretch;
+    text-transform: transform;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+      font-family: $title;
+      src: url("#{$path}#{$file}.svg##{$title}") format("svg");
+    }
+  }
+}
+
+@mixin highlight($bg: white, $gap: 10px, $spacing: 20px, $top: 10px, $bottom: 5px, $break: true) {
+  display: inline;
+  background: $bg;
+  box-shadow: $gap 0 0 $bg,
+    -$gap 0 0 $bg;
+  padding-bottom: $bottom;
+  padding-top: $top;
+  box-decoration-break: clone;
+
+  @if $break==true {
+    &::after {
+      content: "";
+      display: block;
+      height: $spacing;
+      background: none;
+    }
+  }
+}
+
+@mixin scaffold($width: 10px, $left: -40px, $top: -30px, $color: $color-1) {
+  &::before {
+    content: '';
+    display: block;
+    width: $width;
+    margin-left: $left;
+    margin-top: $top;
+    background-color: $color;
+    position: absolute;
+  }
+}
+
+@mixin reset($type: all) {
+  @if $type==margin {
+    margin: 0px !important;
+  }
+
+  @else if $type==padding {
+    padding: 0px !important;
+  }
+
+  @else if $type==border {
+    border: none;
+  }
+
+  @else if $type==bg {
+    background: transparent;
+  }
+
+  @else if $type==list {
+    list-style: none;
+  }
+
+  @else if $type==select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+
+  @else if $type==shadow {
+    @include shadow(normal, none);
+  }
+
+  @else if $type==outline {
+    outline-width: 0;
+    outline: none !important;
+    outline-color: transparent;
+    outline-style: none;
+  }
+
+  @else if $type==shadow-text {
+    @include shadow(text, none);
+  }
+
+  @else if $type==number {
+
+    &[type=number]::-webkit-inner-spin-button,
+    &[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      margin: 0;
+    }
+  }
+
+  @else {
+    margin: 0px !important;
+    padding: 0px !important;
+    border: none;
+    background: transparent;
+
+    &:focus {
+      outline-width: 0;
+      outline: none;
+      outline-color: transparent;
+      outline-style: none;
+    }
+  }
+}
+
+$color-1: purple;
+$color-2: black;
+$frame: 30px;
+$social: 110px;
+$transition: 300ms;
+$bp: 1px;
+$opacity: 0.8;
+
+@mixin fade($x: 0, $y: 0, $z: 0, $duration: $durationDefault, $function: $functionDefault, $delay: $delayDefault, $count: $countDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(fade);
+  @include duration($duration);
+  @include function($function);
+  @include delay($delay);
+  @include count($count);
+  @include visibility($visibility);
+  @include fill-mode($fill);
+
+  @at-root {
+    @include keyframes(fade) {
+      0% {
+        opacity: 0;
+        transform: translate3d($x, $y, $z);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+      }
+    }
+  }
+}
