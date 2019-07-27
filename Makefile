@@ -1,5 +1,6 @@
 NPM := npm
 VENDOR_DIR := assets/vendor/
+SCSS_VENDOR_DIR := _sass/vendor/
 JEKYLL := jekyll
 
 install:
@@ -11,6 +12,7 @@ include-npm-deps:
 	cp node_modules/popper.js/dist/umd/popper.min.js $(VENDOR_DIR)
 	cp node_modules/bootstrap/dist/js/bootstrap.min.js $(VENDOR_DIR)
 	cp node_modules/wowjs/dist/wow.min.js $(VENDOR_DIR)
+	cp -R node_modules/bootstrap $(SCSS_VENDOR_DIR)
 
 
 build: install include-npm-deps
