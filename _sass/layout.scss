@@ -1,4 +1,4 @@
-@include font-face(RenoMono);
+@include font-face(RenoMono, $path: "./fonts/");
 
 body {
   font-family: RenoMono;
@@ -30,12 +30,11 @@ h3 {
 }
 
 h1 {
-  @media screen and (max-width: $bp) {
-    font-size: 20px;
-    border: dashed 5px green;
+  @media screen and (max-width: map-get($grid-breakpoints, sm)) {
+    font-size: 30px;
   }
 
-  @media screen and (min-width: $bp) {
+  @media screen and (min-width: map-get($grid-breakpoints, sm)) {
     font-size: 70px;
   }
 
@@ -59,7 +58,7 @@ p {
 }
 
 .container {
-  @media screen and (min-width: $bp) {
+  @media screen and (min-width: map-get($grid-breakpoints, sm)) {
     display: grid;
     grid-template-columns: 200px 1fr;
 
@@ -76,11 +75,23 @@ aside.sidebar {
   display: grid;
   grid-template-rows: 1fr ($social + $frame);
 
-  @media screen and (min-width: $bp) {
+  @media screen and (min-width: map-get($grid-breakpoints, sm)) {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
   }
+
+  @media screen and (max-width: map-get($grid-breakpoints, sm)) {
+    // width: 100%;
+    // z-index: 100;
+    // margin-lefT: -20px;
+    // padding: $frame 20px;
+    // position: fixed;
+    // @include tile(lines-down-a, purple, 5px);
+    // background-attachment: fixed;
+    // background-color: white;
+  }
+
 
   .description {
     color: $color-1;
@@ -101,7 +112,7 @@ aside.sidebar {
   }
 
   .scroll {
-    @media screen and (min-width: $bp) {
+    @media screen and (min-width: map-get($grid-breakpoints, sm)) {
       overflow-y: auto;
       overflow-x: hidden;
       padding-top: $frame;
@@ -371,7 +382,7 @@ ul.social {
     padding: 10px;
     padding-top: 15px;
 
-    @media screen and (min-width: $bp) {
+    @media screen and (min-width: map-get($grid-breakpoints, sm)) {
       margin-left: -10px;
       margin-right: 10px;
     }
@@ -385,11 +396,11 @@ ul.social {
       padding-right: 60%;
     }
 
-    @media screen and (min-width: $bp) {
+    @media screen and (min-width: map-get($grid-breakpoints, sm)) {
       @include scaffold;
     }
 
-    @media screen and (max-width: $bp) {
+    @media screen and (max-width: map-get($grid-breakpoints, sm)) {
       @include scaffold($left: -30px);
     }
 
@@ -523,7 +534,7 @@ footer.footer {
 }
 
 footer.footer {
-  @media screen and (min-width: $bp) {
+  @media screen and (min-width: map-get($grid-breakpoints, sm)) {
     grid-template-columns: 2fr 1fr;
   }
 }
@@ -531,7 +542,7 @@ footer.footer {
 section.session {
   counter-increment: counter;
 
-  @media screen and (min-width: $bp) {
+  @media screen and (min-width: map-get($grid-breakpoints, sm)) {
     grid-template-columns: 100px 1fr;
     display: grid;
     grid-gap: 30px;
@@ -594,7 +605,7 @@ section.session {
   margin-top: -3px;
   height: 100px;
 
-  @media screen and (max-width: $bp) {
+  @media screen and (max-width: map-get($grid-breakpoints, sm)) {
     width: 100px;
     display: inline-block;
     margin-bottom: 40px;
