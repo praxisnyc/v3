@@ -31,7 +31,8 @@ h3 {
 
 h1 {
   @media screen and (max-width: map-get($grid-breakpoints, sm)) {
-    font-size: 30px;
+    font-size: 40px;
+    margin-left: 10px;
   }
 
   @media screen and (min-width: map-get($grid-breakpoints, sm)) {
@@ -57,17 +58,64 @@ p {
   @include highlight($spacing: 20px, $top: 7px, $bottom: 3px);
 }
 
-.container {
+.reveal-trigger {
   @media screen and (min-width: map-get($grid-breakpoints, sm)) {
-    display: grid;
-    grid-template-columns: 200px 1fr;
+    displaY: none;
+  }
 
-    @media screen and (min-width: map-get($grid-breakpoints, lg)) {
-      grid-template-columns: 1fr 3fr;
+  position: fixed;
+  padding: 5px 20px;
+  max-height: $frame;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  font-size: 15px;
+  background-color: #fff;
+  text-transform: uppercase;
+  z-index: 1200;
+  @include transition;
+
+  &:before {
+    content: "view ";
+
+  }
+
+  body.reveal & {
+    left: $menu;
+
+    &:before {
+      content: "hide ";
+
     }
+  }
+
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: $menu 1fr;
+
+  @include transition(margin-left);
+
+  @media screen and (min-width: map-get($grid-breakpoints, sm)) {
 
     grid-gap: 20px;
   }
+
+  @media screen and (max-width: map-get($grid-breakpoints, sm)) {
+    margin: 0;
+    padding: 0;
+    margin-left: -$menu;
+    grid-template-columns: $menu 100vw;
+  }
+
+  body.reveal & {
+    margin-left: 0;
+  }
+
+
+
 }
 
 aside.sidebar {
@@ -127,6 +175,11 @@ aside.sidebar {
 article.main {
   padding: ($frame - 9px) 0 $frame 0;
   margin-bottom: 20px;
+
+  @media screen and (max-width: map-get($grid-breakpoints, sm)) {
+
+    padding: ($frame + 10px) 20px;
+  }
 
   ul,
   ol {
@@ -298,6 +351,10 @@ nav#navigation {
 }
 
 header.brand {
+  @media screen and (max-width: map-get($grid-breakpoints, sm)) {
+    margin-top: $frame;
+  }
+
   a.logo {
     background-color: #fff;
     padding: 0 15px 15px 5px;
@@ -546,10 +603,10 @@ section.session {
     grid-template-columns: 100px 1fr;
     display: grid;
     grid-gap: 30px;
+    margin-left: -10px;
   }
 
   margin: 100px 0;
-  margin-left: -10px;
 
   .syllabus {
     @include reset(all);
@@ -622,10 +679,10 @@ section.session {
 
 // no social fix
 
-aside.sidebar {
-  grid-template-rows: 1fr 0;
+// aside.sidebar {
+//   grid-template-rows: 1fr 0;
 
-  .social {
-    display: none;
-  }
-}
+//   .social {
+//     display: none;
+//   }
+// }
