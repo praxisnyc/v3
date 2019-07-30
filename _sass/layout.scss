@@ -594,7 +594,14 @@ footer.footer {
   @media screen and (min-width: map-get($grid-breakpoints, sm)) {
     grid-template-columns: 2fr 1fr;
   }
+
 }
+
+body.study footer.footer .newsletter,
+body:not(.study) footer.footer .run-your-own {
+  display: none;
+}
+
 
 section.session {
   counter-increment: counter;
@@ -679,10 +686,10 @@ section.session {
 
 // no social fix
 
-// aside.sidebar {
-//   grid-template-rows: 1fr 0;
+aside.sidebar {
+  grid-template-rows: 1fr 0;
 
-//   .social {
-//     display: none;
-//   }
-// }
+  .social {
+    display: none;
+  }
+}

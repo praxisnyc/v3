@@ -1,0 +1,37 @@
+#mc_embed_signup {
+  margin-top: 20px;
+
+  label[for="mce-EMAIL"] {
+    display: none;
+  }
+
+  input {
+    height: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: none;
+
+    &.required.email {
+      width: 70%;
+      float: left;
+
+    }
+
+    &[type="submit"] {
+      width: 30%;
+      background-color: $color-1;
+      color: white;
+      @include transition;
+
+      &:hover {
+        background-color: darken($color-1, 10%);
+      }
+    }
+  }
+
+  .mce_inline_error {
+    display: block;
+  }
+
+
+}
