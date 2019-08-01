@@ -9,11 +9,12 @@
     height: 40px;
     padding: 10px;
     text-transform: uppercase;
-    border: none;
+
 
     &.required.email {
       width: 70%;
       float: left;
+      border-right: none;
 
     }
 
