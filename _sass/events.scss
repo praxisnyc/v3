@@ -4,33 +4,21 @@ header.week {
   position: sticky;
   top: -1px;
   z-index: 1200;
-  padding: 5px 20px;
+  padding: 10px 20px;
   margin-left: -10px;
-  margin-right: -10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
 
-  nav {
-    text-align: right;
-
-
-  }
-
-  nav a {
-    background-color: $color-1;
-    @include transition;
-    display: inline-block;
+  p {
+    color: $color-1;
     text-transform: uppercase;
-    width: 25px;
-    color: white;
-    heighT: 25px;
-    text-align: center;
-    font-size: 14px;
-    padding-top: 20px;
-    margin-left: -9px;
-    text-decoration: none;
-    overflow: hidden;
+    margin-bottom: 0;
+    font-size: 30px;
 
+    &:after {
+      display: none;
+    }
   }
 
   &#mon nav a:not(:first-of-type):not(:hover),
@@ -40,9 +28,33 @@ header.week {
   &#fri nav a:not(:nth-of-type(5)):not(:hover),
   &#sat nav a:not(:nth-of-type(6)):not(:hover),
   &#sun nav a:not(:nth-of-type(7)):not(:hover) {
-    background-color: $color-1;
-    color: $color-1;
-    height: 5px;
+    background-color: black;
+    color: black;
+    width: 20px;
+    heighT: 20px;
   }
 
+  nav {
+    text-align: right;
+    margin-top: 10px;
+
+    a {
+      background-color: $color-1;
+      @include transition;
+      display: inline-block;
+      text-transform: uppercase;
+      width: 30px;
+      heighT: 30px;
+      color: white;
+      text-align: center;
+      padding-top: 5px;
+      margin-left: -7px;
+      text-decoration: none;
+      overflow: hidden;
+
+    }
+
+
+
+  }
 }

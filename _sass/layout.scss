@@ -1,5 +1,9 @@
 @include font-face(RenoMono, $path: "./fonts/");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: RenoMono;
   @include tile(lines-down-a, purple, 5px);
