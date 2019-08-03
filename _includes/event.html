@@ -1,11 +1,16 @@
 <div class="event">
   <header>
-    <h2>Header</h2>
+    <h2>{{ site.data.drawing.VCALENDAR[0].VEVENT[3].SUMMARY }}</h2>
   </header>
-  <div class="description">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione sit ab quaerat esse minus debitis itaque
-      quisquam cum non aspernatur.</p>
-    <p>Rerum, laboriosam? Facere quod neque voluptate fugit, eum nam hic distinctio quam consectetur ipsa aliquid quasi
-      impedit ullam autem iusto.</p>
-  </div>
+  <p class="description">
+    {{ site.data.drawing.VCALENDAR[0].VEVENT[3].DESCRIPTION  | newline_to_br }}
+  </p>
+
+  <a class="btn brn-primary" href="{{ site.data.drawing.VCALENDAR[0].VEVENT[3]URL;VALUE=URI }}">More
+    Info</a>
+  <a class="btn brn-primary"
+    href="https://www.google.com/maps/search/{{ site.data.drawing.VCALENDAR[0].VEVENT[3].LOCATION  | | cgi_escape }}">View
+    in Map</a>
+  {{ site.data.drawing.VCALENDAR[0].VEVENT[3]URL;VALUE=URI }}
+  {{ site.data.drawing.VCALENDAR[0].VEVENT[3].LOCATION  | newline_to_br }}
 </div>
