@@ -21,13 +21,7 @@
 
     &[type="submit"] {
       width: 30%;
-      background-color: $color-1;
-      color: white;
-      @include transition;
-
-      &:hover {
-        background-color: darken($color-1, 10%);
-      }
+      @extend .btn;
     }
   }
 

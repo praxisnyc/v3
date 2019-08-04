@@ -1,16 +1,19 @@
-<div class="event">
+<div class="event wow">
   <header>
-    <h2>{{ site.data.drawing.VCALENDAR[0].VEVENT[3].SUMMARY }}</h2>
+    <p class="date">Friday, July 19</p>
+    <h2>Title</h2>
   </header>
-  <p class="description">
-    {{ site.data.drawing.VCALENDAR[0].VEVENT[3].DESCRIPTION  | newline_to_br }}
-  </p>
-
-  <a class="btn brn-primary" href="{{ site.data.drawing.VCALENDAR[0].VEVENT[3]URL;VALUE=URI }}">More
-    Info</a>
-  <a class="btn brn-primary"
-    href="https://www.google.com/maps/search/{{ site.data.drawing.VCALENDAR[0].VEVENT[3].LOCATION  | | cgi_escape }}">View
-    in Map</a>
-  {{ site.data.drawing.VCALENDAR[0].VEVENT[3]URL;VALUE=URI }}
-  {{ site.data.drawing.VCALENDAR[0].VEVENT[3].LOCATION  | newline_to_br }}
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectus quisquam ducimus quia, dicta id! Minima
+      iure quod consectetur facere.</p>
+    <p>Minima placeat deleniti magni consectetur exercitationem? Tempore, quos? Quo et totam laudantium porro asperiores
+      sequi dolor, voluptatibus suscipit alias corrupti.</p>
+  </div>
+  <footer class="actions">
+    <p class="time">10pm</p>
+    <p class="place">Place</p>
+    <a href="#" class="btn btn-primary">View in Map</a>
+    <a href="#" class="btn btn-primary">View Original</a>
+    <a href="#" class="btn btn-primary">Invite Friend</a>
+  </footer>
 </div>
