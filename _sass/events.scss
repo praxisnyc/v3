@@ -18,11 +18,22 @@
     display: block;
   }
 
+  p.place {
+    text-transform: uppercase;
+    color: $color-1;
+    margin-left: 10px;
+
+    &:after {
+      display: none;
+    }
+  }
+
   .content {
     margin-left: 10px;
     margin-top: 5px;
 
     p {
+
       span {
         text-transform: uppercase;
         color: $color-1;
@@ -30,6 +41,7 @@
         &.title {
           font-size: 30px;
           @include highlight($spacing: 0px, $top: 9px, $bottom: 3px);
+          line-height: 120%;
         }
       }
 
@@ -40,6 +52,8 @@
         }
       }
     }
+
+
   }
 
 
@@ -54,74 +68,16 @@
 
     .btn {
       display: block;
+      margin-bottom: 5px;
+
+      &:first-of-type {
+        margin-top: 20px;
+      }
+
+      @media screen and (max-width: map-get($grid-breakpoints, md)) {
+        margin-left: 10px;
+      }
+
     }
   }
 }
-
-// header.week {
-//   background-color: #fff;
-//   background-attachment: fixed;
-//   position: sticky;
-//   top: -1px;
-//   z-index: 1200;
-//   padding: 10px 20px;
-//   margin-left: -10px;
-//   display: grid;
-//   grid-template-columns: 1fr 1fr;
-//   margin-bottom: 40px;
-
-//   p {
-//     color: $color-1;
-//     text-transform: uppercase;
-//     margin-bottom: 0;
-//     font-size: 30px;
-
-//     &:after {
-//       display: none;
-//     }
-//   }
-
-//   &#mon nav a:not(:first-of-type):not(:hover),
-//   &#tue nav a:not(:nth-of-type(2)):not(:hover),
-//   &#wed nav a:not(:nth-of-type(3)):not(:hover),
-//   &#thu nav a:not(:nth-of-type(4)):not(:hover),
-//   &#fri nav a:not(:nth-of-type(5)):not(:hover),
-//   &#sat nav a:not(:nth-of-type(6)):not(:hover),
-//   &#sun nav a:not(:nth-of-type(7)):not(:hover) {
-//     background-color: black;
-//     color: black;
-//     width: 20px;
-//     heighT: 20px;
-//   }
-
-//   nav {
-//     text-align: right;
-//     margin-top: 10px;
-
-//     a {
-//       background-color: $color-1;
-//       @include transition;
-//       display: inline-block;
-//       text-transform: uppercase;
-//       width: 30px;
-//       heighT: 30px;
-//       color: white;
-//       text-align: center;
-//       padding-top: 5px;
-//       margin-left: -7px;
-//       text-decoration: none;
-//       overflow: hidden;
-
-//     }
-
-
-
-//   }
-// }
-
-// .event {
-//   p.description {
-//     white-space: pre-line;
-//     white-space: pre-wrap;
-//   }
-// }

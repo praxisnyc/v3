@@ -2427,6 +2427,35 @@ RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20170425T225959Z
 END:VEVENT
 BEGIN:VEVENT
 TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20170411T210000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-APPLE-RADIUS=13.88265453547882;X
+ -TITLE="1882 Woodbine St\nRidgewood, NY, United States":geo:40.705471,-7
+ 3.903786
+UID:87554827-C541-4EB2-836A-2B20B1EEE15D
+DTSTAMP:20170411T225652Z
+LOCATION:1882 Woodbine St\nRidgewood\, NY\, United States
+DESCRIPTION:Season 1 Episode 6
+URL;VALUE=URI:https://github.com/AnarchoTechNYC/meta/wiki/Mr.-Robot's-Ne
+ tflix-'n'-Hack
+STATUS:CONFIRMED
+SEQUENCE:0
+RECURRENCE-ID;TZID=America/New_York:20170411T190000
+SUMMARY:Mr. Robot's Hack Night
+LAST-MODIFIED:20170411T225652Z
+DTSTART;TZID=America/New_York:20170411T190000
+CREATED:20170329T145830Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+BEGIN:VALARM
+X-WR-ALARMUID:DF20678E-5306-48E1-BED5-14DCEA947659
+UID:DF20678E-5306-48E1-BED5-14DCEA947659
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20170411T225659Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
 DTEND;TZID=America/New_York:20170404T210000
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-APPLE-RADIUS=13.88265453547882;X
  -TITLE="1882 Woodbine St\nRidgewood, NY, United States":geo:40.705471,-7
@@ -2474,35 +2503,6 @@ LAST-MODIFIED:20170329T145900Z
 DTSTART;TZID=America/New_York:20170418T190000
 CREATED:20170329T145830Z
 X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
-END:VEVENT
-BEGIN:VEVENT
-TRANSP:OPAQUE
-DTEND;TZID=America/New_York:20170411T210000
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-APPLE-RADIUS=13.88265453547882;X
- -TITLE="1882 Woodbine St\nRidgewood, NY, United States":geo:40.705471,-7
- 3.903786
-UID:87554827-C541-4EB2-836A-2B20B1EEE15D
-DTSTAMP:20170411T225652Z
-LOCATION:1882 Woodbine St\nRidgewood\, NY\, United States
-DESCRIPTION:Season 1 Episode 6
-URL;VALUE=URI:https://github.com/AnarchoTechNYC/meta/wiki/Mr.-Robot's-Ne
- tflix-'n'-Hack
-STATUS:CONFIRMED
-SEQUENCE:0
-RECURRENCE-ID;TZID=America/New_York:20170411T190000
-SUMMARY:Mr. Robot's Hack Night
-LAST-MODIFIED:20170411T225652Z
-DTSTART;TZID=America/New_York:20170411T190000
-CREATED:20170329T145830Z
-X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
-BEGIN:VALARM
-X-WR-ALARMUID:DF20678E-5306-48E1-BED5-14DCEA947659
-UID:DF20678E-5306-48E1-BED5-14DCEA947659
-TRIGGER;VALUE=DATE-TIME:19760401T005545Z
-ACKNOWLEDGED:20170411T225659Z
-X-APPLE-DEFAULT-ALARM:TRUE
-ACTION:NONE
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 TRANSP:OPAQUE
@@ -4991,6 +4991,38 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20180519T140000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="lazy8.social":mailto:bovlt0j8kat236p859h4adt3ck@group.cale
+ ndar.google.com
+UID:c4sjee1k6lhm6b9p60r3eb9k74q66b9o6gq3cb9i6osm4chl70pjcc9g6k@google.co
+ m
+DTSTAMP:20180516T162528Z
+LOCATION:online
+DESCRIPTION:http://bit.ly/lazy8\n\nsorry\, this is the one: http://appea
+ r.in/lazy8
+STATUS:CONFIRMED
+SEQUENCE:1
+RECURRENCE-ID;TZID=America/New_York:20180517T150000
+SUMMARY:#upfront product sprint
+LAST-MODIFIED:20180516T162528Z
+DTSTART;TZID=America/New_York:20180519T130000
+CREATED:20180503T224212Z
+ATTENDEE;CN="Netlan Kelleher";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:netlankelleherb@gmail.com
+ATTENDEE;CN="lazy8.social";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;ROLE=REQ-
+ PARTICIPANT;X-NUM-GUESTS=0:mailto:bovlt0j8kat236p859h4adt3ck@group.calen
+ dar.google.com
+BEGIN:VALARM
+X-WR-ALARMUID:DD93A86A-3548-4B3E-B24E-C3E838336893
+UID:DD93A86A-3548-4B3E-B24E-C3E838336893
+TRIGGER:-PT1H
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
 DTEND;TZID=America/New_York:20180531T160000
 X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
 ORGANIZER;CN="lazy8.social":mailto:bovlt0j8kat236p859h4adt3ck@group.cale
@@ -5020,38 +5052,6 @@ END:VALARM
 BEGIN:VALARM
 X-WR-ALARMUID:E3B4315C-F874-4A51-990D-8190DBEB9A94
 UID:E3B4315C-F874-4A51-990D-8190DBEB9A94
-TRIGGER:-PT1H
-DESCRIPTION:This is an event reminder
-ACTION:DISPLAY
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-TRANSP:OPAQUE
-DTEND;TZID=America/New_York:20180519T140000
-X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
-ORGANIZER;CN="lazy8.social":mailto:bovlt0j8kat236p859h4adt3ck@group.cale
- ndar.google.com
-UID:c4sjee1k6lhm6b9p60r3eb9k74q66b9o6gq3cb9i6osm4chl70pjcc9g6k@google.co
- m
-DTSTAMP:20180516T162528Z
-LOCATION:online
-DESCRIPTION:http://bit.ly/lazy8\n\nsorry\, this is the one: http://appea
- r.in/lazy8
-STATUS:CONFIRMED
-SEQUENCE:1
-RECURRENCE-ID;TZID=America/New_York:20180517T150000
-SUMMARY:#upfront product sprint
-LAST-MODIFIED:20180516T162528Z
-DTSTART;TZID=America/New_York:20180519T130000
-CREATED:20180503T224212Z
-ATTENDEE;CN="Netlan Kelleher";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;RO
- LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:netlankelleherb@gmail.com
-ATTENDEE;CN="lazy8.social";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;ROLE=REQ-
- PARTICIPANT;X-NUM-GUESTS=0:mailto:bovlt0j8kat236p859h4adt3ck@group.calen
- dar.google.com
-BEGIN:VALARM
-X-WR-ALARMUID:DD93A86A-3548-4B3E-B24E-C3E838336893
-UID:DD93A86A-3548-4B3E-B24E-C3E838336893
 TRIGGER:-PT1H
 DESCRIPTION:This is an event reminder
 ACTION:DISPLAY
@@ -7240,10 +7240,10 @@ TRANSP:OPAQUE
 DTEND;TZID=America/New_York:20140914T213000
 X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
 UID:lb6cmm4cf7tuhos7bftksfdnqk@google.com
-EXDATE;TZID=America/New_York:20140916T200000
+EXDATE;TZID=America/New_York:20140919T200000
 EXDATE;TZID=America/New_York:20140914T200000
 EXDATE;TZID=America/New_York:20140915T200000
-EXDATE;TZID=America/New_York:20140919T200000
+EXDATE;TZID=America/New_York:20140916T200000
 DTSTAMP:20140903T205338Z
 LOCATION:The Kitchen\, 512 W 19th St\, New York\, NY\, United States
 DESCRIPTION:The Kitchen (i took alex there for a show before!). Trajal's
@@ -7415,6 +7415,51 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20160928T223000
+UID:ai1ec-15999@thebasebk.org
+DTSTAMP:20161207T223610Z
+DESCRIPTION:Mission Statement\n——————————————————————————–\nIn the 21st 
+ century\, we’ve seen a massive upsurge in technologies being used for bo
+ th nefarious and liberatory purposes. Many of these technologies have be
+ en utilized for organizing\, but we believe their full potential has yet
+  to be reached. Many of the platforms used are maintained and surveilled
+  by our enemies\, and their practical applications as organizing tools a
+ re coincidentally rather than primary intentions.\nIt is the goal of thi
+ s group to build technology for the revolution with anarchist principles
+ . Science and technology serve whomever utilizes them\, thus we shouldn’
+ t allow our enemies to have a monopoly on them.\nIf you’re a programmer\
+ , designer\, IT specialist\, NetSec pro\, or anyone with a knack for tec
+ hnology\, and you believe in the building a world without state\, class\
+ , money\, or borders\, come join us to hack the revolution!\nwhile(state
+  || capitalism || white_supremacy || patriarchy) {\nagitate()\;\neducate
+ ()\;\norganize()\;\nrevolt()\;\n}\nCollective Guidelines\n——————————————
+ ————————————–\nThis group organizes around anarchist principles. It exis
+ ts to complement other organizing tactics/strategies\, or to open new av
+ enues through technology. To this end\, this group does not exist to fur
+ ther one’s career. We will not take personal credit for the projects\, a
+ nd we will not attempt to profit from any technology created in this gro
+ up. Everything we create will be open source so that others can benefit 
+ from it.
+URL;VALUE=URI:https://thebasebk.org/event/anarcho-tech-collective-2/
+STATUS:CONFIRMED
+SEQUENCE:1
+RECURRENCE-ID;TZID=America/New_York:20160928T193000
+SUMMARY:Anarcho Tech Collective
+LAST-MODIFIED:20161207T223610Z
+DTSTART;TZID=America/New_York:20160928T193000
+CREATED:20160920T152340Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+X-WR-ALARMUID:E0668F2D-7AE3-4576-9E1B-341E35B8FD72
+UID:E0668F2D-7AE3-4576-9E1B-341E35B8FD72
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20160928T225929Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
 DTEND;TZID=America/New_York:20161109T223000
 X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
 ORGANIZER;CN="Shit to do":mailto:bovlt0j8kat236p859h4adt3ck@group.calend
@@ -7469,51 +7514,6 @@ X-WR-ALARMUID:0DC1A224-2A7B-4BDC-BA59-BC4B8EE4003E
 UID:0DC1A224-2A7B-4BDC-BA59-BC4B8EE4003E
 TRIGGER;VALUE=DATE-TIME:19760401T005545Z
 ACKNOWLEDGED:20161110T031449Z
-X-APPLE-DEFAULT-ALARM:TRUE
-ACTION:NONE
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-TRANSP:OPAQUE
-DTEND;TZID=America/New_York:20160928T223000
-UID:ai1ec-15999@thebasebk.org
-DTSTAMP:20161207T223610Z
-DESCRIPTION:Mission Statement\n——————————————————————————–\nIn the 21st 
- century\, we’ve seen a massive upsurge in technologies being used for bo
- th nefarious and liberatory purposes. Many of these technologies have be
- en utilized for organizing\, but we believe their full potential has yet
-  to be reached. Many of the platforms used are maintained and surveilled
-  by our enemies\, and their practical applications as organizing tools a
- re coincidentally rather than primary intentions.\nIt is the goal of thi
- s group to build technology for the revolution with anarchist principles
- . Science and technology serve whomever utilizes them\, thus we shouldn’
- t allow our enemies to have a monopoly on them.\nIf you’re a programmer\
- , designer\, IT specialist\, NetSec pro\, or anyone with a knack for tec
- hnology\, and you believe in the building a world without state\, class\
- , money\, or borders\, come join us to hack the revolution!\nwhile(state
-  || capitalism || white_supremacy || patriarchy) {\nagitate()\;\neducate
- ()\;\norganize()\;\nrevolt()\;\n}\nCollective Guidelines\n——————————————
- ————————————–\nThis group organizes around anarchist principles. It exis
- ts to complement other organizing tactics/strategies\, or to open new av
- enues through technology. To this end\, this group does not exist to fur
- ther one’s career. We will not take personal credit for the projects\, a
- nd we will not attempt to profit from any technology created in this gro
- up. Everything we create will be open source so that others can benefit 
- from it.
-URL;VALUE=URI:https://thebasebk.org/event/anarcho-tech-collective-2/
-STATUS:CONFIRMED
-SEQUENCE:1
-RECURRENCE-ID;TZID=America/New_York:20160928T193000
-SUMMARY:Anarcho Tech Collective
-LAST-MODIFIED:20161207T223610Z
-DTSTART;TZID=America/New_York:20160928T193000
-CREATED:20160920T152340Z
-X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
-BEGIN:VALARM
-X-WR-ALARMUID:E0668F2D-7AE3-4576-9E1B-341E35B8FD72
-UID:E0668F2D-7AE3-4576-9E1B-341E35B8FD72
-TRIGGER;VALUE=DATE-TIME:19760401T005545Z
-ACKNOWLEDGED:20160928T225929Z
 X-APPLE-DEFAULT-ALARM:TRUE
 ACTION:NONE
 END:VALARM
@@ -7928,34 +7928,6 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 TRANSP:OPAQUE
-DTEND;TZID=America/New_York:20161218T150000
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-APPLE-RADIUS=17.38030624389648;X
- -TITLE="Bluestockings\n172 Allen St, New York, NY  10002, United States"
- :geo:40.721394,-73.988916
-UID:ge02rgl5n2stkffin0ui9tu0ko@google.com
-DTSTAMP:20190425T184946Z
-LOCATION:Bluestockings\n172 Allen St\, New York\, NY  10002\, United Sta
- tes
-DESCRIPTION:The Forum for Feminist Discussion of Masculinity is a safe s
- pace to discuss the gendered expectations placed on men and boys in a pa
- triarchal society\, and how these have affected\, and continue to affect
- \, all of us. The forum is open to all\, inclusive of gender and level o
- f knowledge of the subject matter. Each month\, we will discuss a theme\
- , which will be posted in the facebook group -www.facebook.com/groups/fe
- ministdiscussionofmasculinity/
-URL;VALUE=URI:http://bluestockings.com/event/feminist-discussion-of-masc
- ulinity/
-STATUS:CONFIRMED
-SEQUENCE:2
-RECURRENCE-ID;TZID=America/New_York:20161218T130000
-SUMMARY:Feminist Discussion of Masculinity
-LAST-MODIFIED:20190425T184946Z
-DTSTART;TZID=America/New_York:20161218T130000
-CREATED:20160610T145701Z
-X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
-END:VEVENT
-BEGIN:VEVENT
-TRANSP:OPAQUE
 DTEND;TZID=America/New_York:20170115T150000
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-APPLE-RADIUS=17.38030624389648;X
  -TITLE="Bluestockings\n172 Allen St, New York, NY  10002, United States"
@@ -8024,6 +7996,34 @@ TRIGGER;VALUE=DATE-TIME:19760401T005545Z
 ACKNOWLEDGED:20161120T184302Z
 ACTION:NONE
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20161218T150000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-APPLE-RADIUS=17.38030624389648;X
+ -TITLE="Bluestockings\n172 Allen St, New York, NY  10002, United States"
+ :geo:40.721394,-73.988916
+UID:ge02rgl5n2stkffin0ui9tu0ko@google.com
+DTSTAMP:20190425T184946Z
+LOCATION:Bluestockings\n172 Allen St\, New York\, NY  10002\, United Sta
+ tes
+DESCRIPTION:The Forum for Feminist Discussion of Masculinity is a safe s
+ pace to discuss the gendered expectations placed on men and boys in a pa
+ triarchal society\, and how these have affected\, and continue to affect
+ \, all of us. The forum is open to all\, inclusive of gender and level o
+ f knowledge of the subject matter. Each month\, we will discuss a theme\
+ , which will be posted in the facebook group -www.facebook.com/groups/fe
+ ministdiscussionofmasculinity/
+URL;VALUE=URI:http://bluestockings.com/event/feminist-discussion-of-masc
+ ulinity/
+STATUS:CONFIRMED
+SEQUENCE:2
+RECURRENCE-ID;TZID=America/New_York:20161218T130000
+SUMMARY:Feminist Discussion of Masculinity
+LAST-MODIFIED:20190425T184946Z
+DTSTART;TZID=America/New_York:20161218T130000
+CREATED:20160610T145701Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
 END:VEVENT
 BEGIN:VEVENT
 TRANSP:OPAQUE

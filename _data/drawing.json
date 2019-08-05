@@ -138,19 +138,19 @@
         },
         {
           "TRANSP": "OPAQUE",
-          "DTEND;TZID=America/New_York": "20180825T130000",
+          "DTEND;TZID=America/New_York": "20190810T130000",
           "X-APPLE-TRAVEL-ADVISORY-BEHAVIOR;ACKNOWLEDGED=20190608T163148Z": "AUTOMATIC4YO7+4DAvqzAARoSCUvNeSF4XkRAEc0kRb8RgFLAIrIBCg1Vbml0ZWQgU3RhdGVzEgJVUxoITmV3IFlvcmsiAk5ZKghOZXcgWW9yazIITmV3IFlvcms6BTEwMDExQglNYW5oYXR0YW5SCVcgMTN0aCBTdFoDMjA4Yg0yMDggVyAxM3RoIFN0cglNYW5oYXR0YW6KAQxOb3J0aCBIdWRzb26KAQxXZXN0IFZpbGxhZ2WKARRNZWF0cGFja2luZyBEaXN0cmljdIoBCU1hbmhhdHRhbioKVGhlIENlbnRlcjINMjA4IFcgMTN0aCBTdDITTmV3IFlvcmssIE5ZICAxMDAxMTINVW5pdGVkIFN0YXRlczg5;X-APPLE-RADIUS=141.1748940017879;X-APPLE-REFERENCEFRAME=1;X-TITLE=\"The Center\\n208 W 13th St, New York, NY  10011, United States\":geo:40.738041,-74.001083",
           "UID": "5515-1535191200-1535202000@gaycenter.org",
           "DTSTAMP": "20190706T112935Z",
           "LOCATION": "The Center\\n208 W 13th St\\, New York\\, NY  10011\\, United States",
-          "DESCRIPTION": "Gay Men’s Male Figure Drawing Group Each session is $15. No RSVP necessary. Models vary from week to week. All skill levels welcome. Bring your own materials. For more information visit us on Twitter & Instagram\\, @GayArtNYC or facebook.com/groups/GayMensMaleFigureDrawingNYC.                                                                                                                                                                                               \\n",
+          "DESCRIPTION": "Gay Men’s Male Figure Drawing Group \\n\\nEach session is $15. No RSVP necessary. Models vary from week to week. All skill levels welcome. Bring your own materials. For more information visit us on Twitter & Instagram\\, @GayArtNYC or facebook.com/groups/GayMensMaleFigureDrawingNYC.                                                                                                                                                                                               \\n",
           "URL;VALUE=URI": "https://gaycenter.org/event/gay-mens-male-figure-drawing-6/2018-08-25/",
           "STATUS": "CONFIRMED",
           "SEQUENCE": "0",
           "CATEGORIES": "Regularly Scheduled Groups",
           "SUMMARY": "Gay Men's Male Figure Drawing",
-          "LAST-MODIFIED": "20190706T112935Z",
-          "DTSTART;TZID=America/New_York": "20180825T100000",
+          "LAST-MODIFIED": "20190804T203644Z",
+          "DTSTART;TZID=America/New_York": "20190810T100000",
           "CREATED": "20180813T212032Z",
           "RRULE": "FREQ=WEEKLY;INTERVAL=1",
           "VALARM": [
@@ -774,6 +774,32 @@
           "DTSTART;TZID=America/New_York": "20160928T190000",
           "CREATED": "20180707T033247Z",
           "RRULE": "FREQ=WEEKLY;INTERVAL=1;UNTIL=20170315T225959Z"
+        },
+        {
+          "TRANSP": "OPAQUE",
+          "DTEND;TZID=America/New_York": "20180825T130000",
+          "X-APPLE-TRAVEL-ADVISORY-BEHAVIOR": "AUTOMATIC4YO7+4DAvqzAARoSCUvNeSF4XkRAEc0kRb8RgFLAIrIBCg1Vbml0ZWQgU3RhdGVzEgJVUxoITmV3IFlvcmsiAk5ZKghOZXcgWW9yazIITmV3IFlvcms6BTEwMDExQglNYW5oYXR0YW5SCVcgMTN0aCBTdFoDMjA4Yg0yMDggVyAxM3RoIFN0cglNYW5oYXR0YW6KAQxOb3J0aCBIdWRzb26KAQxXZXN0IFZpbGxhZ2WKARRNZWF0cGFja2luZyBEaXN0cmljdIoBCU1hbmhhdHRhbioKVGhlIENlbnRlcjINMjA4IFcgMTN0aCBTdDITTmV3IFlvcmssIE5ZICAxMDAxMTINVW5pdGVkIFN0YXRlczg5;X-APPLE-RADIUS=141.1748940017879;X-APPLE-REFERENCEFRAME=1;X-TITLE=\"The Center\\n208 W 13th St, New York, NY  10011, United States\":geo:40.738041,-74.001083",
+          "UID": "16EA3274-BE74-4A9D-BDA5-9005F41719A8",
+          "DTSTAMP": "20190804T203644Z",
+          "LOCATION": "The Center\\n208 W 13th St\\, New York\\, NY  10011\\, United States",
+          "DESCRIPTION": "Gay Men’s Male Figure Drawing Group Each session is $15. No RSVP necessary. Models vary from week to week. All skill levels welcome. Bring your own materials. For more information visit us on Twitter & Instagram\\, @GayArtNYC or facebook.com/groups/GayMensMaleFigureDrawingNYC.                                                                                                                                                                                               \\n",
+          "URL;VALUE=URI": "https://gaycenter.org/event/gay-mens-male-figure-drawing-6/2018-08-25/",
+          "STATUS": "CONFIRMED",
+          "SEQUENCE": "0",
+          "CATEGORIES": "Regularly Scheduled Groups",
+          "SUMMARY": "Gay Men's Male Figure Drawing",
+          "LAST-MODIFIED": "20190706T112935Z",
+          "DTSTART;TZID=America/New_York": "20180825T100000",
+          "CREATED": "20190804T203644Z",
+          "RRULE": "FREQ=WEEKLY;INTERVAL=1;UNTIL=20190810T135959Z",
+          "VALARM": [
+            {
+              "X-WR-ALARMUID": "B8FAC5CC-31F8-4DA5-8184-350CE2B68523",
+              "UID": "B8FAC5CC-31F8-4DA5-8184-350CE2B68523",
+              "TRIGGER;VALUE=DATE-TIME": "19760401T005545Z",
+              "ACTION": "NONE"
+            }
+          ]
         }
       ]
     }
