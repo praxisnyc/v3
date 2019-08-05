@@ -1,19 +1,17 @@
-<div class="event wow">
-  <header>
-    <p class="date">Friday, July 19</p>
-    <h2>Title</h2>
-  </header>
+<div class="event wow" id="{{ site.data.drawing.VCALENDAR[0].VEVENT[3].DTSTAMP | date_to_long_string }}">
+
   <div class="content">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi delectus quisquam ducimus quia, dicta id! Minima
-      iure quod consectetur facere.</p>
-    <p>Minima placeat deleniti magni consectetur exercitationem? Tempore, quos? Quo et totam laudantium porro asperiores
-      sequi dolor, voluptatibus suscipit alias corrupti.</p>
+
+    <p class="header"><span
+        class="date">{{ site.data.drawing.VCALENDAR[0].VEVENT[3].DTSTAMP | date_to_long_string }}</span><br>
+      <span class="title">{{ site.data.drawing.VCALENDAR[0].VEVENT[3].SUMMARY }}</span>
+      <p>{{ site.data.drawing.VCALENDAR[0].VEVENT[3].DESCRIPTION | newline_to_br }}</p>
   </div>
   <footer class="actions">
-    <p class="time">10pm</p>
-    <p class="place">Place</p>
-    <a href="#" class="btn btn-primary">View in Map</a>
-    <a href="#" class="btn btn-primary">View Original</a>
+    <p class="place">{{ site.data.drawing.VCALENDAR[0].VEVENT[3].LOCATION | newline_to_br }}</p>
+    <a href="https://google.com/maps/search/{{ site.data.drawing.VCALENDAR[0].VEVENT[3].LOCATION }}"
+      class="btn btn-primary">View in Map</a>
+    <a href="{{ site.data.drawing.VCALENDAR[0].VEVENT[3].URL;VALUE=URI }}" class="btn btn-primary">View Original</a>
     <a href="#" class="btn btn-primary">Invite Friend</a>
   </footer>
 </div>
