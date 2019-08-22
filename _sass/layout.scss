@@ -624,21 +624,29 @@ section.session {
     @include reset(list);
 
     li {
-      @include highlight($spacing: 5px, $top: 10px, $bottom: 5px);
+      text-transform: uppercase;
 
       &.title {
         font-size: 25px;
-        @include highlight($spacing: 0, $top: 10px, $bottom: 5px);
+        @include highlight($spacing: 10px, $top: 10px, $bottom: 5px);
         color: $color-1;
       }
 
-      &.action,
-      &.title {
-        text-transform: uppercase;
+      &.agenda {
+        font-size: 20px;
+        @include highlight($spacing: 0, $top: 10px, $bottom: 5px);
       }
+
 
       &.meeting {
         margin-top: -20px !important;
+      }
+
+      &.description {
+
+        p {
+          text-transform: none;
+        }
       }
 
       &.meeting,
@@ -646,13 +654,22 @@ section.session {
         font-size: 14px;
       }
 
-      &.link {
+      &.links {
         @include highlight($spacing: 20px, $top: 5px, $bottom: 5px);
 
-        a {
-          text-transform: uppercase;
-          display: block;
-          @include highlight($spacing: 0, $top: 5px, $bottom: 5px);
+        ul {
+          margin-top: 20px;
+        }
+
+        li {
+          text-transform: none;
+
+          a {
+            text-transform: uppercase;
+            display: block;
+            @include highlight($spacing: 0, $top: 5px, $bottom: 5px);
+          }
+
         }
 
       }
