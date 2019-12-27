@@ -15,6 +15,15 @@
           </a>
         </li>
         {% endif %}
+         {% if post.status contains "ongoing" %}
+        <li class="latest cover" style="background-image: url(/assets/images/{{ post.cover }})"> <a
+            href="{{ post.url }}">
+            <span>Latest:</span>
+            <span class="main">{{ post.title }}</span>
+            <span class="slogan">{{ post.description }}</span>
+          </a>
+        </li>
+        {% endif %}
         {% endfor %}
         <li class="previous">
           <p>Previous:</p>

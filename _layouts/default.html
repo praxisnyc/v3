@@ -4,7 +4,7 @@ layout: default
 <html>
 {% include head.html %}
 
-<body class="{%- if page.categories -%}{{ page.categories }}{%- endif -%}">
+<body class="{%- if page.categories -%}{{ page.categories }}{%- endif -%}" id="{%- if page.status -%}{{ page.status }}{%- endif -%}">
 	<div class="container">
 		<aside class="sidebar wow">
 			<div class="scroll">
@@ -36,7 +36,10 @@ layout: default
 				{%- endif -%}
 			</div>
 			{%- endif -%}
-			{{ content }}
+			<div class="sessions">
+				{{ content }}
+			</div>
+			
 			{% include footer.html %}
 		</article>
 
@@ -57,6 +60,7 @@ layout: default
 		// $(function () {
 		// 	$('section.session').addClass('wow');
 		// });
+		
 	</script>
 </body>
 

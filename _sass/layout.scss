@@ -606,6 +606,10 @@ body:not(.study) footer.footer .run-your-own {
   display: none;
 }
 
+body#ongoing .sessions {
+    display: flex;
+  flex-direction: column-reverse;
+}
 
 section.session {
   counter-increment: counter;
