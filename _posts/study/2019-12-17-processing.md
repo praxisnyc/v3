@@ -58,7 +58,7 @@ permalink: /:slug/
     <div class="counter"></div>
     <ul class="syllabus">
       <li class="title">Tool Assessment</li>
-      <li class="meeting">Tuesday Jan 7, 7pm at <a href="https://www.google.com/maps?q=375+menahan+street" target="_blank">375 Menahan Street</a></li> 
+      <li class="meeting">Tuesday Jan 7, 7pm at <a href="https://www.google.com/maps/place/Phorm+Studios/@40.7136321,-73.9224489,17z/data=!4m8!1m2!2m1!1sphorm+studios!3m4!1s0x89c25f9388561d31:0xafa7577d72c7535c!8m2!3d40.7140542!4d-73.9216073" target="_blank">Phorm Studios</a></li> 
       <li class="action"> <a
         href="/assets/events/processing-2.ics">add to calendar</a></li>
 
