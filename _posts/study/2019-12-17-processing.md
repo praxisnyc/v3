@@ -5,8 +5,8 @@ slug: processing
 categories: study
 cover: 2f2cbe52e4f477c2dd02b3.gif
 status: ongoing
-description: A weekly creative coding workshop in brooklyn
-date: 2019-06-02 02:03:16 -0500
+description: A weekly workshop in brooklyn
+date: 2019-12-17 02:03:16 -0500
 permalink: /:slug/
 ---
 
@@ -14,8 +14,7 @@ permalink: /:slug/
   <div class="counter"></div>
   <ul class="syllabus">
     <li class="title">Preflight</li>
-    <li class="meeting">Sunday Dec 29, 4pm at <a href="https://www.google.com/maps/search/mil+mundos/" target="_blank">Mil Mundos Books and Cafe</a></li> 
-
+    <li class="meeting">Sunday Dec 29, 4pm at <a href="https://www.google.com/maps/search/mil+mundos/" target="_blank">Mil Mundos Books and Cafe</a></li>
 <li>
 Trying tools we need, writing intro.</li>    
 
@@ -27,7 +26,7 @@ Trying tools we need, writing intro.</li>
   <div class="counter"></div>
   <ul class="syllabus">
     <li class="title">Tool Assessment</li>
-    <li class="meeting">Tuesday Jan 7, 7pm at 375 Menahan Street <a href="https://www.google.com/maps?q=375+menahan+street" target="_blank">map</a></li> 
+    <li class="meeting">Tuesday Jan 7, 7pm at <a href="https://www.google.com/maps?q=375+menahan+street" target="_blank">375 Menahan Street</a></li> 
 <li class="action"> <a
         href="/assets/events/processing-2.ics">add to calendar</a></li>
 
