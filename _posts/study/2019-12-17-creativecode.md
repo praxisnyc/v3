@@ -14,12 +14,10 @@ permalink: /:slug/
   <div class="counter"></div>
   <ul class="syllabus">
     <li class="title">Preflight</li>
-    <li class="meeting">Sunday Dec 29, 4pm at <a href="https://www.google.com/maps/place/Variety+Coffee+Roasters/@40.7027344,-73.9192718,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25c1e9488e8bb:0x667bb1e4f38b8839!8m2!3d40.7027304!4d-73.9170831">Variety Coffee Roasters</a></li> 
-<!--     <li class="action"> <a
-        href="/assets/events/creativecode-1.ics">add to calendar</a></li> -->
+    <li class="meeting">Sunday Dec 29, 4pm at <a href="https://www.google.com/maps/search/mil+mundos/" target="_blank">Mil Mundos Books and Cafe</a></li> 
 
 <li>
-- Try out tools we need: keybase, github, markdown and processing setup.</li>    
+Trying tools we need, writing intro.</li>    
 
 
   </ul>
@@ -28,13 +26,13 @@ permalink: /:slug/
 <section class="session wow">
   <div class="counter"></div>
   <ul class="syllabus">
-    <li class="title">Intro</li>
-    <li class="meeting">Tuesday Jan 7, 7pm</li> 
-<!--     <li class="action"> <a
-        href="/assets/events/creativecode-1.ics">add to calendar</a></li> -->
+    <li class="title">Tool Assessment</li>
+    <li class="meeting">Tuesday Jan 7, 7pm at 375 Menahan Street <a href="https://www.google.com/maps?q=375+menahan+street" target="_blank">map</a></li> 
+<li class="action"> <a
+        href="/assets/events/processing-2.ics">add to calendar</a></li>
 
 <li>
-- Try out tools we need: keybase, github, markdown and processing setup.</li>    
+Getting familiar with our tools: git, markdown, sublime text, coding environment. </li><li>Don't worry, we got you.</li>    
 
 
   </ul>
