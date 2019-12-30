@@ -606,7 +606,7 @@ body:not(.study) footer.footer .run-your-own {
   display: none;
 }
 
-body#ongoing .sessions {
+.reverse {
     display: flex;
   flex-direction: column-reverse;
 }
