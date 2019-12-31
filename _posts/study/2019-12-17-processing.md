@@ -13,9 +13,7 @@ permalink: /:slug/
 <div class="instructions wow">
 <section>
   <h3>To join:</h3>
-
-
-  <p>Have an interest in learning</p>
+  <p>Have an interest in processing (<a href="https://www.instagram.com/explore/tags/processing/" target="_blank">cool examples here</a>)</p>
   <p>Are based in NY </p>
   <p>Have tuesday nights free</p>
 
@@ -26,12 +24,12 @@ permalink: /:slug/
   <h3>You need:</h3>
 
 
-  <p>a computer</p>
+  <p>A computer</p>
   <p><a href="https://github.com/login">A github account</a> </p>
 <p>Some git experience</p>
   <p><a href="https://www.sublimetext.com/">Sublime Text</a> app</p>
 
-<p>(if you don't know it no biggie, we'll cover the basics)</p>
+<p>(if you don't know it, no biggie, we'll cover the basics)</p>
 
 
 </section>
