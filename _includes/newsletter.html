@@ -1,21 +1,3 @@
-<footer class="footer wow">
-   {% if page.slug contains "processing" %}
-<section>
-     <h3>Special thanks:</h3>
-     <p>Special thanks to <a href="https://abav.lugaralgum.com/" target="_blank">Alexandre Villares</a>,  <a href="https://berinfontes.com/" target="_blank">Bernardo Fontes</a> and <a href="https://garoa.net.br/wiki/Noite_de_Processing" target="_blank">Noite de Processing</a> in Brazil.</p>
-     <p>They've been teaching the language for more than a decade, and generously helped with resources.</p>
-     <p>(We also copied their name 😛)</p>
-   </section>
-{% else %}
-{% if page.categories contains "study" %}
-  <section class="run-your-own">
-     <h3>Run your own:</h3>
-     <p>To create your own study circle with friends, the existing syllabi are available for you.</p>
-     <p>Email us at <a href="mailto:{{site.email}}?subject=Study Circle">{{site.email}}</a> and and we can help you
-       to
-       get started.</p>
-   </section>
-{% else %}
 <section class="newsletter">
      <h3>Newsletter:</h3>
      <p>be informed of new study groups and events</p>
@@ -68,15 +50,3 @@
      </script>
      <!--End mc_embed_signup-->
    </section>
- {% endif %}
-   
-   {% endif %}
-
-   {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
-   <a href="{{ site.posts[random].url }}" class="next"
-     style="background-image: url(/assets/images/{{ site.posts[random].cover }})">
-     <h3>Next:</h3>
-     <span class="main">{{ site.posts[random].title }}</span>
-     <span class="slogan">{{ site.posts[random].description }}</span>
-   </a>
- </footer>
