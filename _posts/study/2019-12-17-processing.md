@@ -36,7 +36,7 @@ permalink: /:slug/
 <section>
   <h3>Enroll:</h3>
 <p>Join <a href="https://keybase.io/team/praxis_nyc.processing">processing group</a> on keybase</p>
-<p>Announce yourself on praxis_nyc chat, #processing channel with your email</p>
+<p>Announce yourself on praxis_nyc.processing chat with your email</p>
 </section>
 </div>
 <div class="reverse">
