@@ -603,7 +603,7 @@ footer.footer {
 
 
 .reverse {
-    display: flex;
+  display: flex;
   flex-direction: column-reverse;
 }
 
@@ -704,7 +704,13 @@ section.session {
   }
 }
 
-
+article.main {
+  ul, ol {
+    li a::after {
+      display: none;
+    }
+  } 
+} 
 // no social fix
 
 aside.sidebar {
