@@ -40,7 +40,7 @@ permalink: /:slug/
 </section>
 </div>
 <div class="reverse">
-  <section class="session wow">
+  <section class="session wow" id="01">
     <div class="counter"></div>
     <ul class="syllabus">
       <li class="title">Preflight</li>
@@ -52,7 +52,7 @@ permalink: /:slug/
     </ul>
   </section>
 
-  <section class="session wow">
+  <section class="session wow" id="02">
     <div class="counter"></div>
     <ul class="syllabus">
       <li class="title">Coding environment setup</li>
