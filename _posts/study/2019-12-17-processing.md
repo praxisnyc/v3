@@ -70,9 +70,9 @@ permalink: /:slug/
   <li>Homework: <a href='https://thecodingtrain.com/Tutorials/1-p5js-basics/1.3-basics-of-drawing.html' target='_blank' class='url'>basics of drawing</a></li>
 <li>Homework: <a href='https://thecodingtrain.com/Tutorials/2-variables/' target='_blank' class='url'>variables</a></li>
 <li>Homework: find p5js inspiration pages (with code)</li>
-<li>Homework: new, simpler p5js-template</li>
-<li><a href='https://desktop.github.com/'>github desktop</a>, push repository as gitHub-pages</li>
-<li>test <a href='https://www.youtube.com/watch?v=MucOaGhCwp0'>textsync</a></li>
+<li>Install: new, simpler p5js-template</li>
+<li>Install: <a href='https://desktop.github.com/'>github desktop</a>, push repository as gitHub-pages</li>
+<li>Intall & Test: <a href='http://rayban.vision/#projects/sublime-textsync'>Sublime-TextSync</a></li>
     
 
     </ul>
