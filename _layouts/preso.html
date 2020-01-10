@@ -27,7 +27,7 @@
 
     <link rel="stylesheet" href="{{ "/reveal.js/css/reveal.css" | prepend: site.baseurl }}"/>
     {%if page.theme %}
-      <link rel="stylesheet" href="{{ "/reveal.js/css/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme"/>
+      <link rel="stylesheet" href="{{ "/assets/vendor/reveal_theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme"/>
     {% else %}
       <link rel="stylesheet" href="{{ "/reveal.js/css/theme/black.css" | prepend: site.baseurl }}" id="theme"/>
     {% endif %}
@@ -54,7 +54,10 @@
   </head>
 
   <body>
-  
+        <div class="line top"></div>
+    <div class="line bottom"></div>
+    <div class="line left"></div>
+    <div class="line right"></div>
     <div class="reveal">
       <div class="slides">
         {{ content }}
