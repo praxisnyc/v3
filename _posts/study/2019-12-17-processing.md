@@ -13,7 +13,7 @@ permalink: /:slug/
 <div class="instructions wow">
   <section>
     <h3>To join:</h3>
-    <p>Have an interest in processing (<a href="https://www.instagram.com/explore/tags/processing/" target="_blank">cool examples here</a>)</p>
+    <p>Have an interest in processing (<a target="_blank" href="https://www.instagram.com/explore/tags/processing/">cool examples here</a>)</p>
     <p>Are based in NY </p>
     <p>Have tuesday nights free</p>
     <p>(Queers and PoCs welcome. All is free.)</p>
@@ -46,17 +46,17 @@ permalink: /:slug/
     <div class="counter"></div>
     <ul class="syllabus">
       <li class="title">Coding environment setup</li>
-      <li class="meeting">Tuesday Jan 7, 7pm at <a href="https://www.google.com/maps/place/Phorm+Studios/@40.7136321,-73.9224489,17z/data=!4m8!1m2!2m1!1sphorm+studios!3m4!1s0x89c25f9388561d31:0xafa7577d72c7535c!8m2!3d40.7140542!4d-73.9216073" target="_blank">Phorm Studios</a></li> 
+      <li class="meeting">Tuesday Jan 7, 7pm at <a href="https://www.google.com/maps/place/Phorm+Studios/@40.7136321,-73.9224489,17z/data=!4m8!1m2!2m1!1sphorm+studios!3m4!1s0x89c25f9388561d31:0xafa7577d72c7535c!8m2!3d40.7140542!4d-73.9216073" target="_blank">Phorm Studios</a></li>
       <li>Setting up our coding environment (Don't worry, we got you)</li>  
       <li class="action"> <a href="https://praxis.nyc/p5js-template/">view environment template</a></li>  
-      <li class="action"> <a href="https://github.com/praxisnyc/p5js-template/#p5js-template">read instructions</a></li> 
+      <li class="action"> <a href="https://github.com/praxisnyc/p5js-template/#p5js-template">read instructions</a></li>
     </ul>
   </section>
   <section class="session wow" id="03">
     <div class="counter"></div>
     <ul class="syllabus">
       <li class="title">Sharing and publishing</li>
-      <li class="meeting">Tuesday Jan 14, 7pm at <a href="https://www.google.com/maps/place/Phorm+Studios/@40.7136321,-73.9224489,17z/data=!4m8!1m2!2m1!1sphorm+studios!3m4!1s0x89c25f9388561d31:0xafa7577d72c7535c!8m2!3d40.7140542!4d-73.9216073" target="_blank">Phorm Studios</a></li> 
+      <li class="meeting">Tuesday Jan 14, 7pm at <a href="https://www.google.com/maps/place/Phorm+Studios/@40.7136321,-73.9224489,17z/data=!4m8!1m2!2m1!1sphorm+studios!3m4!1s0x89c25f9388561d31:0xafa7577d72c7535c!8m2!3d40.7140542!4d-73.9216073" target="_blank">Phorm Studios</a></li>
       <li class="action"> <a href="/assets/events/processing-3.ics">add to calendar</a></li>
       <li>Homework: <a href='https://www.youtube.com/watch?v=c3TeLi6Ns1E&amp;list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&amp;t=0s' target='_blank' class='url'>Shapes & Drawing (youtube)</a></li>
       <li>Homework: <a href='https://thecodingtrain.com/Tutorials/1-p5js-basics/1.3-basics-of-drawing.html' target='_blank' class='url'>basics of drawing</a></li>
