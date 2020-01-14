@@ -55,7 +55,7 @@ permalink: /:slug/
     <div class="counter"></div>
     <ul class="syllabus">
       <li class="title">Sharing and publishing</li>
-      <li class="meeting">Tuesday Jan 14, 7pm at <a href="https://www.google.com/maps/place/Phorm+Studios/@40.7136321,-73.9224489,17z/data=!4m8!1m2!2m1!1sphorm+studios!3m4!1s0x89c25f9388561d31:0xafa7577d72c7535c!8m2!3d40.7140542!4d-73.9216073" target="_blank">Phorm Studios</a></li>
+      <li class="meeting">Tuesday Jan 14, 7pm at <a href="https://www.google.com/maps?q=375+menahan+street" target="_blank">375 menahan Street</a></li>
       <li class="action"> <a href="/assets/events/processing-3.ics">add to calendar</a></li>
       <li>Homework: <a href='https://www.youtube.com/watch?v=c3TeLi6Ns1E&amp;list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&amp;t=0s' target='_blank' class='url'>Shapes & Drawing (youtube)</a></li>
       <li>Homework: <a href='https://thecodingtrain.com/Tutorials/1-p5js-basics/1.3-basics-of-drawing.html' target='_blank' class='url'>basics of drawing</a></li>
