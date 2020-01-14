@@ -9,7 +9,6 @@ description: Coding for the masses
 date: 2019-12-17 02:03:16 -0500
 permalink: /:slug/
 ---
-
 <div class="instructions wow">
   <section>
     <h3>To join:</h3>
