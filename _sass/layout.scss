@@ -631,6 +631,12 @@ section.session {
         @include highlight($spacing: 10px, $top: 10px, $bottom: 5px);
         color: $color-1;
       }
+      &.sig {
+        text-transform: none;
+          font-size: 15px;
+          margin-top: 0;
+          font-style: italic;
+      }
 
       &.agenda {
         font-size: 20px;
@@ -709,8 +715,8 @@ article.main {
     li a::after {
       display: none;
     }
-  } 
-} 
+  }
+}
 // no social fix
 
 aside.sidebar {

@@ -66,4 +66,17 @@ permalink: /:slug/
       <li>Install & Test: <a href='http://rayban.vision/#projects/sublime-textsync'>Sublime-TextSync</a></li>
     </ul>
   </section>
+  <section class="session wow" id="03">
+    <div class="counter"></div>
+    <ul class="syllabus">
+      <li class="meeting">Tuesday Jan 14, 7pm at <a href="https://www.google.com/maps?q=375+menahan+street" target="_blank">375 menahan Street</a></li>
+      <li class="action"> <a href="/assets/events/processing-4.ics">add to calendar</a></li>
+      <li>We're following <a href='keybase://team/praxis_nyc.processing/books/p5.js%20-%20All%20you%20need%20to%20know.pdf' target='_blank' class='url'>this tutorial</a></li>
+      <li class="sig">(keybase link, you must be <a href="https://keybase.io/team/praxis_nyc.processing" target="_blank">a team member</a> to access it)</li>
+      <li><a href="https://zoom.us/j/7245826849">zoom link</a></li>
+      <li class="sig">(since some members are overseas)</li>
+      <li>present new and simplified <a href='https://github.com/praxisnyc/p5js-template' target='_blank' class='url'>p5js-template</a></li>
+      <li>Announce <a href='https://github.com/praxisnyc/p5js-snippets'>p5js-snippets</a>? maybe too soon?</li>
+    </ul>
+  </section>
 </div>
