@@ -5,33 +5,31 @@ slug: processing
 categories: study
 cover: 2f2cbe52e4f477c2dd02b3.gif
 status: ongoing
-description: Coding for the masses
+description: A safe space for creative coding
 date: 2019-12-17 02:03:16 -0500
 permalink: /:slug/
 ---
 <div class="instructions wow">
   <section>
-    <h3>To join:</h3>
-    <p>Have an interest in processing (<a target="_blank" href="https://www.instagram.com/explore/tags/processing/">cool examples here</a>)</p>
-    <p>Are based in NY </p>
-    <p>Have tuesday nights free</p>
-    <p>(Queers and PoCs welcome. All is free.)</p>
+    <h3>Format:</h3>
+    <p>Every thursday 7PM EST, 2 hours of processing</p>
+    <p>Demos, debugging, show-and-tell</p>
+    <p>All invited</p>
+    <p>Queers and PoCs welcome.</p>
   </section>
   <section>
-    <h3>You need:</h3>
-    <p>A computer</p>
-    <p><a href="https://github.com/login">A github account</a> </p>
-    <p>Some git experience</p>
-    <p><a href="https://www.sublimetext.com/">Sublime Text</a> app</p>
-    <p>(if you don't know it, no biggie, we'll cover the basics)</p>
+    <h3>Join:</h3>
+      <a class="action" href="https://zoom.us/j/7245826849">Zoom group</a>
+  <a class="action" href="/assets/events/processing-night.ics">Add to calendar</a>
+
   </section>
   <section>
-    <h3>Enroll:</h3>
-    <p>Join <a href="https://keybase.io/team/praxis_nyc.processing">processing group</a> on keybase</p>
-    <p>Announce yourself on praxis_nyc.processing chat with your email</p>
+    <h3>More:</h3>
+    <p>Join our <a href="https://keybase.io/team/praxis_nyc.processing">processing group</a> on keybase</p>
+    <p>Announce yourself on chat</p>
   </section>
 </div>
-<div class="reverse">
+<!-- <div class="reverse">
   <section class="session wow" id="01">
     <div class="counter"></div>
     <ul class="syllabus">
@@ -41,7 +39,7 @@ permalink: /:slug/
       Trying tools we need, writing intro.</li>    
     </ul>
   </section>
-  <section class="session wow" id="02">
+ <section class="session wow" id="02">
     <div class="counter"></div>
     <ul class="syllabus">
       <li class="title">Coding environment setup</li>
@@ -79,4 +77,4 @@ permalink: /:slug/
       <li>Announce <a href='https://github.com/praxisnyc/p5js-snippets'>p5js-snippets</a>? maybe too soon?</li>
     </ul>
   </section>
-</div>
+</div> -->

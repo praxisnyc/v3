@@ -81,3 +81,22 @@
     }
   }
 }
+
+
+
+a.action {
+  border: solid 1px purple;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 80%;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  @include shadow(box, 0 4px 0px rgba(0, 0, 0, 0.10));
+  &:hover {
+    border-color: black;
+    text: black;
+    @include shadow(box, 0 3px 0px rgba(0, 0, 0, 0.15));
+  }
+}
