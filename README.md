@@ -1,5 +1,7 @@
 # Praxis website
 
+<a href="https://praxis.nyc"><img src="https://praxis.nyc/assets/favicons/apple-touch-icon.png" width="60px" height="60px" /></a>
+
 ### Running it locally
 
 You need [node](https://nodejs.org/en/download/) for npm, and [jekyll](https://jekyllrb.com/docs/installation/macos/).
