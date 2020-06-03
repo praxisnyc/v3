@@ -1,18 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="{%- if page.categories -%}{{ page.categories }}{%- endif -%}">
 
 	<head>
 	{% include head.html %}
 
 		<link rel="stylesheet" href="/reveal.js/dist/reset.css">
 		<link rel="stylesheet" href="/reveal.js/dist/reveal.css">
-		<link rel="stylesheet" href="/reveal.js/dist/theme/{{ page.theme }}.css" id="theme">
-
-		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="/reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
 
-<body class="{%- if page.categories -%}{{ page.categories }}{%- endif -%}" id="{%- if page.status -%}{{ page.status }}{%- endif -%}">
+<body id="{%- if page.status -%}{{ page.status }}{%- endif -%}">
 
 		<div class="reveal">
 

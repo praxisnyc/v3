@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: RenoMono;
-  @include tile(lines-down-a, purple, 5px);
+  @include tile(lines-down-a, $color-1, 5px);
   background-attachment: fixed;
   counter-reset: counter;
 }
@@ -62,40 +62,6 @@ p {
   @include highlight($spacing: 20px, $top: 7px, $bottom: 3px);
 }
 
-.reveal-trigger {
-  @media screen and (min-width: map-get($grid-breakpoints, sm)) {
-    displaY: none;
-  }
-
-  position: fixed;
-  padding: 5px 20px;
-  max-height: $frame;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  font-size: 15px;
-  background-color: #fff;
-  text-transform: uppercase;
-  z-index: 1200;
-  @include transition;
-
-  &:before {
-    content: "view ";
-
-  }
-
-  body.reveal & {
-    left: $menu;
-
-    &:before {
-      content: "hide ";
-
-    }
-  }
-
-}
-
-
 .container {
   display: grid;
   grid-template-columns: $menu 1fr;
@@ -112,10 +78,6 @@ p {
     padding: 0;
     margin-left: -$menu;
     grid-template-columns: $menu 100vw;
-  }
-
-  body.reveal & {
-    margin-left: 0;
   }
 
 
@@ -139,7 +101,7 @@ aside.sidebar {
     // margin-lefT: -20px;
     // padding: $frame 20px;
     // position: fixed;
-    // @include tile(lines-down-a, purple, 5px);
+    // @include tile(lines-down-a, $color-1, 5px);
     // background-attachment: fixed;
     // background-color: white;
   }
