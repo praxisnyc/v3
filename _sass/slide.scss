@@ -5,6 +5,7 @@ html.slide {
   }
 section {
   text-align: left;
+  @include fadeIn;
 }
 tt {
   @include highlight(yellow);
@@ -233,3 +234,14 @@ picture.right {
 }
 
 
+#eggs {
+  #eggs1, #eggs2, #eggs3 {
+   @include fade(0, 20px, 0, $delay: $transition);
+}
+#survey1 {
+   @include fade(0, 20px, 0, $delay: $transition);
+}
+#survey2 {
+   @include fade(0, 20px, 0, $delay: ($transition * 2));
+}
+}
