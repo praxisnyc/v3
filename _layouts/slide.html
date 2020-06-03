@@ -1,32 +1,36 @@
 <!doctype html>
 <html lang="en" class="{%- if page.categories -%}{{ page.categories }}{%- endif -%}">
 
-	<head>
+<head>
 	{% include head.html %}
 
-		<link rel="stylesheet" href="{{'/assets/vendor/reveal.js/dist/reset.css' | prepend: site.baseurl}}">
-		<link rel="stylesheet" href="{{'/assets/vendor/reveal.js/dist/reveal.css' | prepend: site.baseurl}}">
-		<link rel="stylesheet" href="{{'/assets/vendor/reveal.js/plugin/highlight/monokai.css' | prepend: site.baseurl}}" id="highlight-theme">
-	</head>
+	<link rel="stylesheet" href="{{'/assets/vendor/reveal.js/dist/reset.css' | prepend: site.baseurl}}">
+	<link rel="stylesheet" href="{{'/assets/vendor/reveal.js/dist/reveal.css' | prepend: site.baseurl}}">
+	<link rel="stylesheet" href="{{'/assets/vendor/reveal.js/plugin/highlight/monokai.css' | prepend: site.baseurl}}" id="highlight-theme">
+</head>
 
 <body id="{%- if page.status -%}{{ page.status }}{%- endif -%}">
 
-		<div class="reveal">
+	<div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section data-markdown>
+				# {{page.title}}
+				### {{page.description}}
+			</section>
 			{{ content }}
 		</div>
 
-		</div>
+	</div>
 
-		<script src="{{'/assets/vendor/reveal.js/dist/reveal.js' | prepend: site.baseurl}}"></script>
-		<script src="{{'/assets/vendor/reveal.js/plugin/zoom/zoom.js' | prepend: site.baseurl}}"></script>
-		<script src="{{'/assets/vendor/reveal.js/plugin/notes/notes.js' | prepend: site.baseurl}}"></script>
-		<script src="{{'/assets/vendor/reveal.js/plugin/search/search.js' | prepend: site.baseurl}}"></script>
-		<script src="{{'/assets/vendor/reveal.js/plugin/markdown/markdown.js' | prepend: site.baseurl}}"></script>
-		<script src="{{'/assets/vendor/reveal.js/plugin/highlight/highlight.js' | prepend: site.baseurl}}"></script>
-		<script>
+	<script src="{{'/assets/vendor/reveal.js/dist/reveal.js' | prepend: site.baseurl}}"></script>
+	<script src="{{'/assets/vendor/reveal.js/plugin/zoom/zoom.js' | prepend: site.baseurl}}"></script>
+	<script src="{{'/assets/vendor/reveal.js/plugin/notes/notes.js' | prepend: site.baseurl}}"></script>
+	<script src="{{'/assets/vendor/reveal.js/plugin/search/search.js' | prepend: site.baseurl}}"></script>
+	<script src="{{'/assets/vendor/reveal.js/plugin/markdown/markdown.js' | prepend: site.baseurl}}"></script>
+	<script src="{{'/assets/vendor/reveal.js/plugin/highlight/highlight.js' | prepend: site.baseurl}}"></script>
+	<script>
 
 			// Also available as an ES module, see:
 			// https://revealjs.com/initialization/
@@ -43,4 +47,4 @@
 		</script>
 
 	</body>
-</html>
+	</html>

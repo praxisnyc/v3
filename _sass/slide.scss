@@ -15,7 +15,8 @@ section {
 
   h1, h2, h3, h4, h5, h6 {
   color: $color-slide;
-  line-height: 130%;
+  line-height: 110%;
+  @include highlight($top: 15px);
    &:after {
     height: $frame;
    }
