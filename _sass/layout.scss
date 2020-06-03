@@ -4,6 +4,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.wow {
+  @include fade(0, 50px, 0, $delay: 100ms);
+}
+
+
 body {
   font-family: RenoMono;
   @include tile(lines-up-a, grey, 6px);
@@ -134,9 +139,6 @@ aside.sidebar {
   }
 }
 
-.wow {
-  @include fade(0, 50px, 0, $delay: 100ms);
-}
 
 article.main {
   padding: ($frame - 9px) 0 $frame 0;
