@@ -2,27 +2,17 @@
 <html lang="en">
 
 	<head>
-		<meta charset="utf-8">
-
-		<title>reveal.js – The HTML Presentation Framework</title>
-
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
-
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% include head.html %}
 
 		<link rel="stylesheet" href="/reveal.js/dist/reset.css">
 		<link rel="stylesheet" href="/reveal.js/dist/reveal.css">
-		<link rel="stylesheet" href="/reveal.js/dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="/reveal.js/dist/theme/{{ page.theme }}.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="/reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
 
-	<body>
+<body class="{%- if page.categories -%}{{ page.categories }}{%- endif -%}" id="{%- if page.status -%}{{ page.status }}{%- endif -%}">
 
 		<div class="reveal">
 

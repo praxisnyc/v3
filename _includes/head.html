@@ -1,4 +1,4 @@
-<head>
+
 	<link rel="apple-touch-icon" sizes="180x180"
 		href="{{'/assets/favicons/apple-touch-icon.png' | prepend: site.baseurl}}">
 	<link rel="icon" type="image/png" sizes="32x32"
@@ -40,8 +40,6 @@
 	{% endif %}
 	{%if page.cover %}
 	<meta property="twitter:image" content={{ site.url }}/assets/images/{{ page.cover }}> {% endif %} {%if page.open %}
-		<meta property="twitter:image" content={{ site.url }}/assets/images/{{ page.open }}> {% endif %} <link
-		rel="stylesheet" href="{{'/assets/main.css' | prepend: site.baseurl}}">
+		<meta property="twitter:image" content={{ site.url }}/assets/images/{{ page.open }}> {% endif %} 
 
 
-</head>
