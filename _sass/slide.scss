@@ -3,7 +3,9 @@ html.slide {
     background: none;
     background-image: url(/assets/images/praxis-bg.svg);
   }
-
+section {
+  text-align: left;
+}
 .reveal {
   font-family: RenoMono;
   font-size: 2rem;
@@ -27,7 +29,7 @@ html.slide {
   h3 {
     font-size: 1.55em;
   }
-  h4 {
+  h4, p, li, tr, th {
     font-size: 1em;
   }
   img {
@@ -43,42 +45,30 @@ html.slide {
     max-width: 95%;
     max-height: 95%;
   }
+li:before {
+content: '•';
+  margin-right: 0.5em;
+  }
   ol {
-    display: inline-block;
-    text-align: left;
-    margin: 0 0 0 1em;
+
     list-style-type: decimal;
+  }
+  ol, ul {
+    display: inline-block;
+    li {
+      @include highlight;
+    }
     ol {
       display: block;
-      margin-left: $frame;
+      margin-left: $frame * 2;
     }
     ul {
       display: block;
-      margin-left: $frame;
+      margin-left: $frame * 2;
     }
   }
   dl {
     display: inline-block;
-    text-align: left;
-    margin: 0 0 0 1em;
-  }
-  ul {
-    display: inline-block;
-    text-align: left;
-    margin: 0 0 0 1em;
-    list-style-type: disc;
-    ul {
-      list-style-type: square;
-      display: block;
-      margin-left: 40px;
-      ul {
-        list-style-type: circle;
-      }
-    }
-    ol {
-      display: block;
-      margin-left: 40px;
-    }
   }
   dt {
     font-weight: bold;
@@ -215,7 +205,7 @@ html.slide {
   }
   .progress {
     background-color: white;
-    @include tile(lines-down-a, $color-slide, 5px);
+    @include tile(lines-up-a, $color-slide, 5px);
     color: $color-slide;
     height: 5px;
     width: 100%;

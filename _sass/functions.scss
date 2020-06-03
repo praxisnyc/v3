@@ -1,4 +1,4 @@
-$color-1: purple;
+$color-1: black;
 $color-2: black;
 $color-slide: $color-2;
 $frame: 30px;
@@ -15,14 +15,6 @@ $opacity: 0.8;
   padding-bottom: $bottom;
   padding-top: $top;
   box-decoration-break: clone;
-
-  // @media screen and (max-width: map-get($grid-breakpoints, sm)) {
-  //   padding-left: $gap;
-
-  //   &:after {
-  //     height: 0;
-  //   }
-  // }
 
   @if $break==true {
     &::after {
