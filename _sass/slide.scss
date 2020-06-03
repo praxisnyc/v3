@@ -6,6 +6,15 @@ html.slide {
 section {
   text-align: left;
 }
+tt {
+  @include highlight(yellow);
+  &:after {
+    display: none;
+  }
+  & + tt {
+    margin-left: 10px;
+  }
+}
 .reveal {
   font-family: RenoMono;
   font-size: 2rem;
@@ -217,4 +226,10 @@ content: '•';
   .backgrounds {
   }
 }
+picture.right {
+  float: right;
+  margin-left: $frame;
 }
+}
+
+
