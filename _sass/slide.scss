@@ -216,7 +216,7 @@ content: '•';
   }
   .progress {
     background-color: white;
-    @include tile(lines-up-a, $color-slide, 5px);
+    @include tile(lines-up-a, black, 5px);
     color: $color-slide;
     height: 5px;
     width: 100%;
