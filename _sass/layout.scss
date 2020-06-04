@@ -179,6 +179,16 @@ article.main {
 
 nav#navigation {
   padding-top: 20px !important;
+a {
+    span.description {
+    display: block;
+    font-size: 80%;
+    padding-left: 0;
+  }
+  &:hover span.description {
+    color: $color-2;
+  }
+}
 }
 
 .item {
@@ -255,7 +265,6 @@ nav#navigation {
 .next {
   span {
     text-transform: uppercase;
-
     &.slogan {
       margin-left: 10px;
     }
