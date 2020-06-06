@@ -233,6 +233,17 @@ picture.right {
 }
 }
 
+.status {
+  font-size: 1rem;
+  margin-left: $frame * 1.5;
+  @include highlight(rgba(0,0,0, .2), $top: 10px);
+@include radius(20px);
+&:after {
+  display: none;
+}
+
+}
+
 
 #story1 {
   #story1-1, #story1-2, #story1-3 {
