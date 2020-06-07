@@ -306,14 +306,10 @@ html.slide {
 
 
 #story1 {
-  #story1-1, #story1-2, #story1-3 {
-
-
-  }
-  #survey1 {
+  #survey-1 {
    @include fade(0, 20px, 0, $delay: $transition);
  }
- #survey2 {
+ #survey-2 {
    @include fade(0, 20px, 0, $delay: ($transition * 2));
  }
 }
