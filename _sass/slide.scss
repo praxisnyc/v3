@@ -1,6 +1,9 @@
 $mobile-radius: 10px;
-$mobile-border: #ccc;
-$mobile-more: dashed 2px $mobile-border;
+$mobile-border: #999;
+$mobile-padding: 10px;
+$mobile-width: 350px;
+$mobile-thickness: 1px;
+$mobile-more: dashed $mobile-thickness $mobile-border;
 
 
 html.slide {
@@ -242,56 +245,40 @@ html.slide {
       border: solid 1px $mobile-border;
       @include shadow(box, 0 0 10px rgba(0, 0, 0, 0.10));
       @include transition;
-
+&.more-down:after, &.more-up:before, &.more-both:before, &.more-both:after {
+   content: "";
+   background-color: white;
+    display: block;
+          position: absolute;
+             width: $mobile-width + ($mobile-padding * 2);
+          height: 10px;
+          margin-left: -$mobile-padding;
+} 
       &.more-down {
 
         @include radius($mobile-radius, $mobile-radius, 0, 0, irregular);
         &:after {
-          content: "";
           border-top: $mobile-more;
-          background-color: white;
-          display: block;
-          position: absolute;
-          width: 100%;
-          height: 10px;
-          margin-top: -2px;
+          margin-top: -$mobile-thickness;
         }
       }
       &.more-up {
 
         @include radius(0, 0, $mobile-radius, $mobile-radius, irregular);
         &:before {
-          content: "";
           border-bottom: $mobile-more;
-          background-color: white;
-          display: block;
-          position: absolute;
-          width: 100%;
-          height: 10px;
           margin-top: -8px;
         }
       }
       &.more-both {
         @include radius(0);
-            &:before {
-          content: "";
+        &:before {
           border-bottom: $mobile-more;
-          background-color: white;
-          display: block;
-          position: absolute;
-          width: 100%;
-          height: 10px;
           margin-top: -8px;
         }
-          &:after {
-          content: "";
+       &:after {
           border-top: $mobile-more;
-          background-color: white;
-          display: block;
-          position: absolute;
-          width: 100%;
-          height: 10px;
-          margin-top: -2px;
+          margin-top: -$mobile-thickness;
         }
       }
     }
