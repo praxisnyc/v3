@@ -307,6 +307,9 @@ html.slide {
   text-transform: none;
 }
 
+#blink-1, #blink-2, #blink-3, #blink-4 {
+  @include flash($count: infinite, $duration: $transition * 3, $delay: 0);
+}
 
 #story1 {
   #survey-1 {
