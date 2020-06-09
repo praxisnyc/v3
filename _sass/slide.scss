@@ -294,6 +294,52 @@ html.slide {
   text-transform: none;
 }
 
+.cover {
+  h1, h3 {
+    display: block !important;
+    &:after {
+     display: none !important;
+    }
+
+  }
+  h1 {
+    font-size: 3.2em !important;
+  }
+  h2 {
+      font-size: 1.4em !important;
+
+    }
+    .collab {
+      text-transform: lowercase;
+margin-top: $frame;
+      font-size: 1.2em !important;
+a {
+  color: transparent;
+img, svg {
+    @include transition;
+}
+  &:not(:hover) {
+    filter: grayscale(1);
+  }
+}
+        svg {
+          width: 40px;
+
+height: 40px;
+path {
+  fill: purple;
+}
+        }
+        img {
+          
+             height: 40px;
+
+        @include reset(all);
+        }
+        
+    }
+}
+
 #blink-1, #blink-2, #blink-3, #blink-4 {
   @include flash($count: infinite, $duration: $transition * 3, $delay: 0);
 }
