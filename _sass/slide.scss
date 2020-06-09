@@ -295,8 +295,8 @@ html.slide {
 }
 
 .cover {
-  h1, h3 {
-    display: block !important;
+  h1, h2, h3 {
+    display: inline-block !important;
     &:after {
      display: none !important;
     }
@@ -304,6 +304,7 @@ html.slide {
   }
   h1 {
     font-size: 3.2em !important;
+
   }
   h2 {
       font-size: 1.4em !important;
@@ -311,8 +312,7 @@ html.slide {
     }
     .collab {
       text-transform: lowercase;
-margin-top: $frame;
-      font-size: 1.2em !important;
+      font-size: 1em !important;
 a {
   color: transparent;
 img, svg {
@@ -323,16 +323,16 @@ img, svg {
   }
 }
         svg {
-          width: 40px;
+          width: 35px;
 
-height: 40px;
+height: 35px;
 path {
   fill: purple;
 }
         }
         img {
           
-             height: 40px;
+             height: 35px;
 
         @include reset(all);
         }
