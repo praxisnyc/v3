@@ -16,6 +16,13 @@ body {
   counter-reset: counter;
 }
 
+.popover-body {
+  font-family: RenoMono;
+  a {
+    display: block;
+  }
+}
+
 a {
   transition: all $transition ease-out;
   color: $color-1;
@@ -198,7 +205,7 @@ a {
     margin-bottom: 5px;
     background-color: #fff;
     color: $color-1;
-    font-size: 25px;
+    font-size: 22px;
 
     &:after {
       content: '-';
@@ -697,5 +704,19 @@ aside.sidebar {
 
   .social {
     display: none;
+  }
+}
+.language {
+  &.pt {
+   font-style: italic;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 1fr 1px 1fr;
+  .divider {
+    background-color: black;
   }
 }
