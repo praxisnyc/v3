@@ -15401,17 +15401,10 @@ a.text-dark:hover, a.text-dark:focus {
     -o-transform-origin: center bottom;
     transform-origin: center bottom; } }
 @font-face {
-  font-family: RenoMono;
-  src: url("./fonts/RenoMono.eot");
-  src: url("./fonts/RenoMono.eot?#iefix") format("embedded-opentype"), url("./fonts/RenoMono.woff") format("woff"), url("./fonts/RenoMono.ttf") format("truetype"), url("./fonts/RenoMono.svg#RenoMono") format("svg");
+  font-family: 'hasklig-light';
+  src: url("./fonts/hasklig-light.woff2") format("woff2"), url("./fonts/hasklig-light.woff") format("woff");
   font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  text-transform: transform; }
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: RenoMono;
-    src: url("./fonts/RenoMono.svg#RenoMono") format("svg"); } }
+  font-style: normal; }
 html {
   scroll-behavior: smooth; }
 
@@ -15487,7 +15480,7 @@ html {
     opacity: 1;
     transform: translate3d(0, 0, 0); } }
 body {
-  font-family: RenoMono;
+  font-family: hasklig-light;
   background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Elines-up-a%3C/title%3E%3Cg fill='grey' fill-rule='nonzero'%3E%3Cpath d='M36.1 36H34l2.1-2.1zM0 2V-.1h2.1z'/%3E%3Cpath d='M0 2V-.1h2.1zM36 2.1V0h-2.1L0 33.9V36h2.1z'/%3E%3C/g%3E%3C/svg%3E");
   position: relative;
   z-index: 1;
@@ -15496,7 +15489,7 @@ body {
   counter-reset: counter; }
 
 .popover-body {
-  font-family: RenoMono; }
+  font-family: hasklig-light; }
   .popover-body a {
     display: block; }
 
