@@ -1,4 +1,4 @@
-@include font-face(RenoMono, $path: "./fonts/");
+@include font-face(SpaceGrotesk-Regular, $path: "./fonts/");
 
 html {
   scroll-behavior: smooth;
@@ -10,14 +10,14 @@ html {
 
 
 body {
-  font-family: RenoMono;
+  font-family: SpaceGrotesk-Regular;
   @include tile(lines-up-a, grey, 6px);
   background-attachment: fixed;
   counter-reset: counter;
 }
 
 .popover-body {
-  font-family: RenoMono;
+  font-family: SpaceGrotesk-Regular;
   a {
     display: block;
   }
@@ -35,13 +35,13 @@ a {
 
 .title {
   width: 60%;
-  padding-top: 17px;
+  padding-top: 16px;
 }
 
 h1,
 h2,
 h3 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: $color-1;
 }
 
@@ -172,7 +172,7 @@ article.main {
       }
 
       a {
-        text-transform: uppercase;
+        text-transform: capitalize;
         @include highlight($spacing: 0, $top: 5px, $bottom: 5px);
       }
     }
@@ -200,7 +200,7 @@ a {
 
 .item {
   button[data-toggle='collapse'] {
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: none;
     margin-bottom: 5px;
     background-color: #fff;
@@ -258,7 +258,7 @@ a {
     a,
     p {
       @include highlight($spacing: 10px, $top: 7px, $bottom: 5px);
-      text-transform: uppercase;
+      text-transform: capitalize;
 
       margin: 0;
 
@@ -271,7 +271,7 @@ a {
 
 .next {
   span {
-    text-transform: uppercase;
+    text-transform: capitalize;
     &.slogan {
       margin-left: 10px;
     }
@@ -312,7 +312,7 @@ a {
   span {
     display: inline-block;
     font-size: 12px;
-    @include highlight($spacing: 0px, $top: 5px, $bottom: 3px);
+    @include highlight($spacing: 0, $top: 5px, $bottom: 3px);
     @include transition;
 
     &.main {
@@ -322,7 +322,7 @@ a {
     }
 
     &.slogan {
-      margin-top: -10px;
+      margin-top: -20px;
     }
   }
 
@@ -363,7 +363,7 @@ header.brand {
 
 #study {
   p {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 14px;
     padding-left: 10px;
 
@@ -381,7 +381,7 @@ ul.social {
 
   a {
     display: inline-block;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding: 0 5px 0 10px;
     font-size: 14px;
     @include transition;
@@ -400,12 +400,13 @@ ul.social {
 
 .home {
   .subtitle {
+    padding-bottom: 30px;
     p {
       @include highlight($spacing: 5px, $top: 10px, $bottom: 5px);
       line-height: 120%;
       font-size: 40px;
       color: $color-1;
-      text-transform: uppercase;
+      text-transform: capitalize;
     }
   }
 
@@ -604,7 +605,7 @@ section.session {
     @include reset(list);
 
     li {
-      text-transform: uppercase;
+      text-transform: capitalize;
 
       &.title {
         font-size: 25px;
@@ -651,7 +652,7 @@ section.session {
           text-transform: none;
 
           a {
-            text-transform: uppercase;
+            text-transform: capitalize;
             display: block;
             @include highlight($spacing: 0, $top: 5px, $bottom: 5px);
           }
