@@ -21,7 +21,7 @@ html:not(.slide) {
   &:before {
     top: 0;
     height: $frame;
-    @include tile(lines-up-c, white, 5px); width: 100%;
+    @include tile(lines-down-c, white, 6px); width: 100%;
     display: block;
     content: "";
     position: fixed;
@@ -30,7 +30,7 @@ html:not(.slide) {
   &:after {
     bottom: 0;
     height: $frame;
-    @include tile(lines-up-c, white, 5px); width: 100%;
+    @include tile(lines-down-c, white, 6px); width: 100%;
     display: block;
     content: "";
     position: fixed;
