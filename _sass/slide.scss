@@ -7,10 +7,12 @@ $mobile-more: dashed $mobile-thickness $mobile-border;
 
 
 html.slide {
+  
 
   body {
     background: none;
     background-image: url(/assets/images/praxis-bg.svg);
+    @include tile(lines-down-a, lightgrey, 15px);
   }
   section {
     text-align: left;
@@ -24,7 +26,7 @@ html.slide {
     }
   }
   .reveal {
-    font-family: RenoMono;
+    font-family: SpaceGrotesk-Regular;
     font-size: 2rem;
     line-height: 130%;
     word-wrap: break-word;
@@ -223,7 +225,7 @@ html.slide {
     }
     .progress {
       background-color: white;
-      @include tile(lines-up-a, black, 5px);
+      @include tile(lines-down-a, black, 5px);
       color: $color-slide;
       height: 5px;
       width: 100%;

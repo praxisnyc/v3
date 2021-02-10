@@ -16336,7 +16336,11 @@ a.action {
 
 html.slide body {
   background: none;
-  background-image: url(/assets/images/praxis-bg.svg); }
+  background-image: url(/assets/images/praxis-bg.svg);
+  background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Elines-down-a%3C/title%3E%3Cg fill='lightgrey' fill-rule='nonzero'%3E%3Cpath d='M36.1 0H34l2.1 2.1zM0 34v2.1h2.1z'/%3E%3Cpath d='M0 34v2.1h2.1zM36 33.9V36h-2.1L0 2.1V0h2.1z'/%3E%3C/g%3E%3C/svg%3E");
+  position: relative;
+  z-index: 1;
+  background-size: 15px; }
 html.slide section {
   text-align: left;
   -webkit-animation-name: fadeIn;
@@ -16384,7 +16388,7 @@ html.slide tt {
   html.slide tt + tt {
     margin-left: 10px; }
 html.slide .reveal {
-  font-family: RenoMono;
+  font-family: SpaceGrotesk-Regular;
   font-size: 2rem;
   line-height: 130%;
   word-wrap: break-word;
@@ -16543,7 +16547,7 @@ html.slide .reveal {
     position: absolute !important; }
   html.slide .reveal .progress {
     background-color: white;
-    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Elines-up-a%3C/title%3E%3Cg fill='black' fill-rule='nonzero'%3E%3Cpath d='M36.1 36H34l2.1-2.1zM0 2V-.1h2.1z'/%3E%3Cpath d='M0 2V-.1h2.1zM36 2.1V0h-2.1L0 33.9V36h2.1z'/%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Elines-down-a%3C/title%3E%3Cg fill='black' fill-rule='nonzero'%3E%3Cpath d='M36.1 0H34l2.1 2.1zM0 34v2.1h2.1z'/%3E%3Cpath d='M0 34v2.1h2.1zM36 33.9V36h-2.1L0 2.1V0h2.1z'/%3E%3C/g%3E%3C/svg%3E");
     position: relative;
     z-index: 1;
     background-size: 5px;
