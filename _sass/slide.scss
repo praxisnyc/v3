@@ -109,22 +109,18 @@ html.slide {
       margin-left: 40px;
     }
     blockquote {
+
       display: block;
-      position: relative;
+&::before {
+      content: "";
+      display: block;
+      height: 1px;
+      background: none !important;
+    }
       width: 70%;
-      margin: $frame auto;
-      padding: 5px;
+      margin-left: $frame;
+      @include highlight($bg: lighten(yellow, 40%), $spacing: 0px, $top: 7px, $bottom: 5px);
       font-style: italic;
-      background: rgba(255, 255, 255, 0.05);
-      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
-      p {
-        &:first-child {
-          display: inline-block;
-        }
-        &:last-child {
-          display: inline-block;
-        }
-      }
     }
     q {
       font-style: italic;
