@@ -24,8 +24,12 @@ html.slide {
     }
   } 
    p {
-    @include highlight($spacing: 0px, $top: 3px, $bottom: 3px);
+    @include highlight($spacing: 0px, $top: 7px, $bottom: 5px);
     font-size: 90%;
+  }
+  h1, h2, h3 {
+    @include highlight($spacing: 0px, $top: 10px, $bottom: 10px);
+   
   }
   tt {
     @include highlight(yellow, $break: false, $gap: 0);
@@ -44,7 +48,6 @@ html.slide {
     h1, h2, h3, h4, h5, h6 {
       color: $color-slide;
       line-height: 110%;
-      @include highlight($top: 15px);
       &:after {
         height: $frame;
       }

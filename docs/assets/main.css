@@ -16386,11 +16386,23 @@ html.slide p {
   display: inline;
   background: white;
   box-shadow: 10px 0 0 white, -10px 0 0 white;
-  padding-bottom: 3px;
-  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-top: 7px;
   box-decoration-break: clone;
   font-size: 90%; }
   html.slide p::after {
+    content: "";
+    display: block;
+    height: 0px;
+    background: none !important; }
+html.slide h1, html.slide h2, html.slide h3 {
+  display: inline;
+  background: white;
+  box-shadow: 10px 0 0 white, -10px 0 0 white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-decoration-break: clone; }
+  html.slide h1::after, html.slide h2::after, html.slide h3::after {
     content: "";
     display: block;
     height: 0px;
@@ -16412,18 +16424,7 @@ html.slide .reveal {
   color: black; }
   html.slide .reveal h1, html.slide .reveal h2, html.slide .reveal h3, html.slide .reveal h4, html.slide .reveal h5, html.slide .reveal h6 {
     color: black;
-    line-height: 110%;
-    display: inline;
-    background: white;
-    box-shadow: 10px 0 0 white, -10px 0 0 white;
-    padding-bottom: 5px;
-    padding-top: 15px;
-    box-decoration-break: clone; }
-    html.slide .reveal h1::after, html.slide .reveal h2::after, html.slide .reveal h3::after, html.slide .reveal h4::after, html.slide .reveal h5::after, html.slide .reveal h6::after {
-      content: "";
-      display: block;
-      height: 20px;
-      background: none !important; }
+    line-height: 110%; }
     html.slide .reveal h1:after, html.slide .reveal h2:after, html.slide .reveal h3:after, html.slide .reveal h4:after, html.slide .reveal h5:after, html.slide .reveal h6:after {
       height: 30px; }
   html.slide .reveal h1 {
