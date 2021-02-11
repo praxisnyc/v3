@@ -16395,14 +16395,14 @@ html.slide p {
     display: block;
     height: 0px;
     background: none !important; }
-html.slide h1, html.slide h2, html.slide h3 {
+html.slide h1, html.slide h2, html.slide h3, html.slide h4 {
   display: inline;
   background: white;
   box-shadow: 10px 0 0 white, -10px 0 0 white;
   padding-bottom: 10px;
   padding-top: 10px;
   box-decoration-break: clone; }
-  html.slide h1::after, html.slide h2::after, html.slide h3::after {
+  html.slide h1::after, html.slide h2::after, html.slide h3::after, html.slide h4::after {
     content: "";
     display: block;
     height: 0px;

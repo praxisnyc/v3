@@ -27,7 +27,7 @@ html.slide {
     @include highlight($spacing: 0px, $top: 7px, $bottom: 5px);
     font-size: 90%;
   }
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
     @include highlight($spacing: 0px, $top: 10px, $bottom: 10px);
    
   }
