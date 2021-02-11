@@ -16378,6 +16378,23 @@ html.slide section {
   -ms-backface-visibility: hidden;
   -o-backface-visibility: hidden;
   backface-visibility: hidden; }
+  html.slide section .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px; }
+html.slide p {
+  display: inline;
+  background: white;
+  box-shadow: 10px 0 0 white, -10px 0 0 white;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  box-decoration-break: clone;
+  font-size: 90%; }
+  html.slide p::after {
+    content: "";
+    display: block;
+    height: 0px;
+    background: none !important; }
 html.slide tt {
   display: inline;
   background: yellow;

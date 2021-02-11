@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://praxis.nyc//feed.xml" rel="self" type="application/atom+xml" /><link href="https://praxis.nyc//" rel="alternate" type="text/html" /><updated>2021-02-09T21:41:22-05:00</updated><id>https://praxis.nyc//feed.xml</id><title type="html">Praxis</title><subtitle>Decolonize your attention</subtitle><entry><title type="html">notes</title><link href="https://praxis.nyc//notes/" rel="alternate" type="text/html" title="notes" /><published>2020-12-29T00:00:00-05:00</published><updated>2020-12-29T00:00:00-05:00</updated><id>https://praxis.nyc//notes</id><content type="html" xml:base="https://praxis.nyc//notes/">https://www.notion.so/praxis-nyc-4e06f69ca3774e4b97fe6c7adff5cad3</content><author><name></name></author><summary type="html">https://www.notion.so/praxis-nyc-4e06f69ca3774e4b97fe6c7adff5cad3</summary></entry><entry><title type="html">enslavement</title><link href="https://praxis.nyc//study/enslavement/" rel="alternate" type="text/html" title="enslavement" /><published>2020-11-11T00:00:00-05:00</published><updated>2020-11-11T00:00:00-05:00</updated><id>https://praxis.nyc//study/enslavement</id><content type="html" xml:base="https://praxis.nyc//study/enslavement/">&lt;section class=&quot;wow&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://praxis.nyc//feed.xml" rel="self" type="application/atom+xml" /><link href="https://praxis.nyc//" rel="alternate" type="text/html" /><updated>2021-02-11T16:28:19-05:00</updated><id>https://praxis.nyc//feed.xml</id><title type="html">Praxis</title><subtitle>Decolonize your attention</subtitle><entry><title type="html">notes</title><link href="https://praxis.nyc//notes/" rel="alternate" type="text/html" title="notes" /><published>2020-12-29T00:00:00-05:00</published><updated>2020-12-29T00:00:00-05:00</updated><id>https://praxis.nyc//notes</id><content type="html" xml:base="https://praxis.nyc//notes/">https://www.notion.so/praxis-nyc-4e06f69ca3774e4b97fe6c7adff5cad3</content><author><name></name></author><summary type="html">https://www.notion.so/praxis-nyc-4e06f69ca3774e4b97fe6c7adff5cad3</summary></entry><entry><title type="html">enslavement</title><link href="https://praxis.nyc//study/enslavement/" rel="alternate" type="text/html" title="enslavement" /><published>2020-11-11T00:00:00-05:00</published><updated>2020-11-11T00:00:00-05:00</updated><id>https://praxis.nyc//study/enslavement</id><content type="html" xml:base="https://praxis.nyc//study/enslavement/">&lt;section class=&quot;wow&quot;&gt;
   &lt;div class=&quot;instructions wow&quot;&gt;
   &lt;section&gt;
     &lt;h3&gt;Rules:&lt;/h3&gt;
@@ -827,16 +827,36 @@
 		&lt;p&gt;after transaction, both Jenn and Margo answer how it went.&lt;/p&gt;
 		&lt;p&gt;✨wish is then forgotten, along with location and conversation.&lt;/p&gt;
 &lt;/section&gt;
-&lt;/section&gt; --&gt;</content><author><name></name></author><summary type="html">✨wish mutual aid micro-volunteering A and collaboration What it is facilitates #needs and #offers in a community taxonomy is defined bottom-up by #tags regions are defined bottom-up by geofencing User stories 1. #compost 2. #leftoversIncomplete 3. #poetryPending</summary></entry><entry><title type="html">Embodied Cognition</title><link href="https://praxis.nyc//slide/embodied/" rel="alternate" type="text/html" title="Embodied Cognition" /><published>2020-06-01T19:03:16-04:00</published><updated>2020-06-01T19:03:16-04:00</updated><id>https://praxis.nyc//slide/embodied</id><content type="html" xml:base="https://praxis.nyc//slide/embodied/">&lt;section class=&quot;cover&quot;&gt;
+&lt;/section&gt; --&gt;</content><author><name></name></author><summary type="html">✨wish mutual aid micro-volunteering A and collaboration What it is facilitates #needs and #offers in a community taxonomy is defined bottom-up by #tags regions are defined bottom-up by geofencing User stories 1. #compost 2. #leftoversIncomplete 3. #poetryPending</summary></entry><entry><title type="html">Embodied Cognition</title><link href="https://praxis.nyc//slide/embodied/" rel="alternate" type="text/html" title="Embodied Cognition" /><published>2020-06-01T19:03:16-04:00</published><updated>2020-06-01T19:03:16-04:00</updated><id>https://praxis.nyc//slide/embodied</id><content type="html" xml:base="https://praxis.nyc//slide/embodied/">&lt;section&gt;
 				&lt;h1&gt;Embodied Cognition&lt;/h1&gt;
 				&lt;h2 class=&quot;fragment&quot;&gt;embodied, situated, extended&lt;/h2&gt;
 			&lt;/section&gt;
 			&lt;section&gt;
 				&lt;img src=&quot;/assets/images/supersizing.jpg&quot;&gt;
-				&lt;img src=&quot;/assets/images/beyond.jpg&quot;&gt;
-				&lt;img src=&quot;/assets/images/understanding.jpg&quot;&gt;
+				&lt;img class=&quot;fragment&quot; src=&quot;/assets/images/beyond.jpg&quot;&gt;
+				&lt;img class=&quot;fragment&quot; src=&quot;/assets/images/understanding.jpg&quot;&gt;
 			&lt;/section&gt;
+&lt;section&gt;
+&lt;div class=&quot;grid&quot;&gt;
+		&lt;div&gt;
+		&lt;h2&gt;Brainbound&lt;/h2&gt;
+&lt;div class=&quot;description fragment&quot;&gt;
+	&lt;p&gt;The (nonneural) body is just the sensor and effector system of the brain, and the world is just the arena in which adaptive problems get posed and in which the brain–body system must sense and act. &lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;All human cognition depends directly on neural activity alone.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
+&lt;div&gt;
+	&lt;h2&gt;Extended&lt;/h2&gt;
+	&lt;div class=&quot;description fragment&quot;&gt;
+	&lt;p&gt;Includes inextricable tangles of feedback, feed-forward, and feed-around loops: loops that promiscuously criss-cross the boundaries of brain, body, and world. The local mechanisms of mind are not all in the head. &lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Cognition leaks out into body and world.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;p&gt; This matters because it drives home the degree to which environmental engineering is also self-engineering.&lt;/p&gt; --&gt;
+&lt;/section&gt;
 &lt;section&gt;
 &lt;p&gt;If such bodily and extrabodily loops are indeed integral to certain forms of intelligent activity, we need to understand when and why this can be so&lt;/p&gt;
 
@@ -845,14 +865,7 @@
 &lt;p&gt;Mind, therefore, is not incidentally but intimately embodied and intimately embedded in its world.&lt;/p&gt;
 &lt;/section&gt;
 
-&lt;section&gt;
-	&lt;h2&gt;BRAINBOUND Versus EXTENDED&lt;/h2&gt;
-&lt;p&gt;According to BRAINBOUND, the (nonneural) body is just the sensor and effector system of the brain, and the rest of the world is just the arena in which adaptive problems get posed and in which the brain–body system must sense and act. If BRAINBOUND is correct, then all human cognition depends directly on neural activity alone&lt;/p&gt;
 
-&lt;p&gt;According to EXTENDED, the actual local operations that realize certain forms of human cognizing include inextricable tangles of feedback, feed-forward, and feed-around loops: loops that promiscuously criss-cross the boundaries of brain, body, and world. The local mechanisms of mind, if this is correct, are not all in the head. Cognition leaks out into body and world.&lt;/p&gt;
-
-&lt;p&gt; This matters because it drives home the degree to which environmental engineering is also self-engineering.&lt;/p&gt;
-&lt;/section&gt;
 
 &lt;section&gt;
 	&lt;h2&gt;metabolic cost&lt;/h2&gt;
@@ -905,7 +918,7 @@
 &lt;section&gt;
 	&lt;h2&gt;Links&lt;/h2&gt;
 	&lt;a href=&quot;https://www.preposterousuniverse.com/podcast/2020/11/16/123-lisa-feldman-barrett-on-emotions-actions-and-the-brain/&quot;&gt;Lisa Feldman Barrett on Emotions, Actions, and the Brain&lt;/a&gt;
-&lt;/section&gt;</content><author><name></name></author><summary type="html">Embodied Cognition embodied, situated, extended</summary></entry><entry><title type="html">Mesa</title><link href="https://praxis.nyc//slide/mesa/" rel="alternate" type="text/html" title="Mesa" /><published>2020-06-01T19:03:16-04:00</published><updated>2020-06-01T19:03:16-04:00</updated><id>https://praxis.nyc//slide/mesa</id><content type="html" xml:base="https://praxis.nyc//slide/mesa/">&lt;section data-markdown=&quot;&quot;&gt;
+&lt;/section&gt;</content><author><name></name></author><summary type="html">Embodied Cognition embodied, situated, extended Brainbound The (nonneural) body is just the sensor and effector system of the brain, and the world is just the arena in which adaptive problems get posed and in which the brain–body system must sense and act. All human cognition depends directly on neural activity alone.</summary></entry><entry><title type="html">Mesa</title><link href="https://praxis.nyc//slide/mesa/" rel="alternate" type="text/html" title="Mesa" /><published>2020-06-01T19:03:16-04:00</published><updated>2020-06-01T19:03:16-04:00</updated><id>https://praxis.nyc//slide/mesa</id><content type="html" xml:base="https://praxis.nyc//slide/mesa/">&lt;section data-markdown=&quot;&quot;&gt;
 ## What it is
 
 - Augmented Table

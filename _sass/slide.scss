@@ -7,7 +7,7 @@ $mobile-more: dashed $mobile-thickness $mobile-border;
 
 
 html.slide {
-  
+
 
   body {
     background: none;
@@ -17,6 +17,15 @@ html.slide {
   section {
     text-align: left;
     @include fadeIn;
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 50px;
+    }
+  } 
+   p {
+    @include highlight($spacing: 0px, $top: 3px, $bottom: 3px);
+    font-size: 90%;
   }
   tt {
     @include highlight(yellow, $break: false, $gap: 0);
