@@ -40,6 +40,18 @@ layout: default
 				{%- endif -%}
 			</div>
 			{%- endif -%}
+
+			{% if page.categories contains "study" %}
+			{% if page.objective %}
+			<section class="wow">
+  <h3>Objective</h3>
+<p>{{ page.objective }}</p>
+</section>
+{% endif %} 
+			<section class="wow">
+  {% include study-rules.html %}
+</section>
+{% endif %} 
 				{{ content }}
 
 			{% include footer.html %}

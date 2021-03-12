@@ -4,7 +4,7 @@ title: Processing Night
 slug: processing
 categories: study
 cover: 2f2cbe52e4f477c2dd02b3.gif
-status: previous
+status: draft
 description: A safe space for creative coding
 date: 2019-12-17 02:03:16 -0500
 permalink: /:slug/
